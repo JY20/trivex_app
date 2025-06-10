@@ -80,9 +80,9 @@ import CompassAnimation from '../components/CompassAnimation'; // Import the new
 import CharityResultCard from '../components/CharityResultCard'; // Import the new card component
 import ImpactMap from '../components/ImpactMap'; // Import the new map component
 
-const API_BASE_URL = 'http://localhost:8080/api';
-
-// Aptos Contract Constants (Re-added for all-frontend approach)
+// Mock data, replace with API calls
+// Constants for API and Wallet
+const API_BASE_URL = 'https://eunoia-api-eya2hhfdfzcchyc2.canadacentral-01.azurewebsites.net/api'; // Backend API base URL
 const MODULE_ADDRESS = "0x3940277b22c1fe2c8631bdce9dbcf020c3b8240a5417fa13ac21d37860f88011";
 const MODULE_NAME = "eunoia_foundation";
 const DONATE_FUNCTION_NAME = "donate";
@@ -1528,7 +1528,7 @@ const DonatePage = () => {
 
         try {
           console.log("Sending donation data to backend:", donationDataForBackend);
-          // API_BASE_URL is 'http://localhost:8080/api'
+          // API_BASE_URL is 'http://localhost:8000/api'
           const response = await axios.post(`${API_BASE_URL}/donation-transactions/`, donationDataForBackend);
           console.log("Backend response for saving transaction:", response.data);
         } catch (backendError) {

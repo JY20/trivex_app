@@ -37,9 +37,10 @@ import GoalIcon from '@mui/icons-material/Flag';
 import EmailIcon from '@mui/icons-material/Email';
 import LinkIcon from '@mui/icons-material/Link';
 import ImageIcon from '@mui/icons-material/Image';
+// import { APIProvider, Map, AdvancedMarker, Pin, InfoWindow } from '@vis.gl/react-google-maps';
 
 // Constants
-const API_BASE_URL = 'http://localhost:8080/api';
+const API_BASE_URL = 'https://eunoia-api-eya2hhfdfzcchyc2.canadacentral-01.azurewebsites.net/api';
 
 // Styled components
 const PageWrapper = styled(Box)(({ theme }) => ({
