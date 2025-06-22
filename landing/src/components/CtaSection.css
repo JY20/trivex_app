@@ -1,0 +1,228 @@
+.cta-section {
+  padding: 100px 0;
+  background-color: #133B57; /* Navy */
+  color: #FFFFFF; /* White */
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0; /* Ensure no gap to next section */
+}
+
+.cta-section::before,
+.cta-section::after {
+  content: '';
+  position: absolute;
+  background-color: #FFFFFF; /* White */
+  height: 100px;
+  width: 100%; /* Ensure full width */
+  z-index: 0; /* Ensure behind content */
+}
+
+.cta-section::before {
+  top: -1px; /* Slight overlap to avoid gap */
+  right: 0;
+  left: 0;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 0);
+}
+
+.cta-section::after {
+  bottom: -1px; /* Slight overlap to avoid gap */
+  right: 0;
+  left: 0;
+  clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
+}
+
+.cta-content {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cta-image-container {
+  display: flex;
+  align-items: stretch;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+.cta-image {
+  flex: 1;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+
+.cta-actual-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.5s ease;
+}
+
+.cta-image:hover .cta-actual-image {
+  transform: scale(1.05);
+}
+
+.placeholder-image {
+  display: none;
+}
+
+.cta-info-box {
+  flex: 1;
+  background-color: #E96543; /* Orange main */
+  padding: 60px;
+  color: #FFFFFF; /* White */
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-info-box::before {
+  content: '';
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  z-index: 0;
+}
+
+.cta-info-box::after {
+  content: '';
+  position: absolute;
+  bottom: -80px;
+  left: -80px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.05);
+  z-index: 0;
+}
+
+.cta-info-box h2 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #FFFFFF; /* White */
+  line-height: 1.2;
+  position: relative;
+  z-index: 1;
+}
+
+.cta-info-box p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: rgba(255, 255, 255, 0.9);
+  position: relative;
+  z-index: 1;
+  line-height: 1.6;
+}
+
+.cta-contact {
+  margin-top: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.phone-number {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.phone-number::before {
+  content: '☎';
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.cta-info-box .btn-primary {
+  background-color: #133B57; /* Navy */
+  color: #FFFFFF; /* White */
+  border: none;
+  padding: 14px 28px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cta-info-box .btn-primary:hover {
+  background-color: #EB866A; /* Orange hover */
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.cta-info-box .btn-primary:active {
+  background-color: #B23C1B; /* Orange pressed */
+  transform: translateY(0);
+}
+
+.arrow-icon {
+  margin-left: 10px;
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+.btn-primary:hover .arrow-icon {
+  transform: translateX(5px);
+}
+
+@media (max-width: 992px) {
+  .cta-image-container {
+    flex-direction: column-reverse;
+  }
+  
+  .cta-image, .cta-info-box {
+    width: 100%;
+    height: auto;
+    min-height: 350px;
+  }
+  
+  .cta-info-box {
+    padding: 40px;
+  }
+  
+  .cta-info-box h2 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cta-section {
+    padding: 60px 0;
+  }
+  
+  .cta-info-box {
+    padding: 30px;
+    min-height: 300px;
+  }
+  
+  .cta-info-box h2 {
+    font-size: 28px;
+  }
+  
+  .cta-info-box p {
+    font-size: 16px;
+  }
+  
+  .phone-number {
+    font-size: 18px;
+  }
+  
+  .cta-image {
+    height: 300px;
+  }
+} 

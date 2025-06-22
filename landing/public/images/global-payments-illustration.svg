@@ -1,0 +1,142 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- World Map Base -->
+  <path d="M400 100C550 100 670 220 670 370C670 520 550 640 400 640C250 640 130 520 130 370C130 220 250 100 400 100Z" fill="#133B57" fill-opacity="0.05" stroke="#133B57" stroke-width="2"/>
+  
+  <!-- Continents -->
+  <!-- North America -->
+  <path d="M220 170C230 160 250 150 280 155C310 160 330 180 340 200C350 220 355 240 345 250C335 260 310 255 285 250C260 245 235 230 225 210C215 190 210 180 220 170Z" fill="#133B57" fill-opacity="0.2" stroke="#133B57" stroke-width="1"/>
+  
+  <!-- South America -->
+  <path d="M280 320C290 310 310 305 330 310C350 315 360 330 365 345C370 360 375 375 365 385C355 395 335 390 315 385C295 380 280 370 275 355C270 340 270 330 280 320Z" fill="#133B57" fill-opacity="0.2" stroke="#133B57" stroke-width="1"/>
+  
+  <!-- Europe -->
+  <path d="M400 170C410 160 430 155 450 160C470 165 480 180 485 195C490 210 495 225 485 235C475 245 455 240 435 235C415 230 400 220 395 205C390 190 390 180 400 170Z" fill="#133B57" fill-opacity="0.2" stroke="#133B57" stroke-width="1"/>
+  
+  <!-- Africa -->
+  <path d="M400 280C410 270 430 265 450 270C470 275 480 290 485 305C490 320 495 335 485 345C475 355 455 350 435 345C415 340 400 330 395 315C390 300 390 290 400 280Z" fill="#133B57" fill-opacity="0.2" stroke="#133B57" stroke-width="1"/>
+  
+  <!-- Asia -->
+  <path d="M500 200C510 190 530 185 550 190C570 195 580 210 585 225C590 240 595 255 585 265C575 275 555 270 535 265C515 260 500 250 495 235C490 220 490 210 500 200Z" fill="#133B57" fill-opacity="0.2" stroke="#133B57" stroke-width="1"/>
+  
+  <!-- Australia -->
+  <path d="M550 380C560 370 580 365 600 370C620 375 630 390 635 405C640 420 645 435 635 445C625 455 605 450 585 445C565 440 550 430 545 415C540 400 540 390 550 380Z" fill="#133B57" fill-opacity="0.2" stroke="#133B57" stroke-width="1"/>
+  
+  <!-- Canada Highlight -->
+  <path d="M250 180C260 170 280 165 300 170C320 175 330 190 335 205C340 220 345 235 335 245C325 255 305 250 285 245C265 240 250 230 245 215C240 200 240 190 250 180Z" fill="#E96543" fill-opacity="0.6" stroke="#E96543" stroke-width="1"/>
+  
+  <!-- Grid Lines -->
+  <ellipse cx="400" cy="370" rx="270" ry="270" stroke="#133B57" stroke-width="1" stroke-opacity="0.2"/>
+  <ellipse cx="400" cy="370" rx="200" ry="200" stroke="#133B57" stroke-width="1" stroke-opacity="0.2"/>
+  <ellipse cx="400" cy="370" rx="130" ry="130" stroke="#133B57" stroke-width="1" stroke-opacity="0.2"/>
+  <line x1="130" y1="370" x2="670" y2="370" stroke="#133B57" stroke-width="1" stroke-opacity="0.2"/>
+  <line x1="400" y1="100" x2="400" y2="640" stroke="#133B57" stroke-width="1" stroke-opacity="0.2"/>
+  
+  <!-- Payment Paths with Animation -->
+  <path d="M290 195C350 240 410 285 470 330" stroke="#E96543" stroke-width="3" stroke-dasharray="10 5">
+    <animate attributeName="stroke-dashoffset" from="15" to="0" dur="2s" repeatCount="indefinite" />
+  </path>
+  
+  <path d="M290 195C320 290 350 385 380 480" stroke="#E96543" stroke-width="3" stroke-dasharray="10 5">
+    <animate attributeName="stroke-dashoffset" from="15" to="0" dur="2.5s" repeatCount="indefinite" />
+  </path>
+  
+  <path d="M290 195C380 280 470 365 560 450" stroke="#E96543" stroke-width="3" stroke-dasharray="10 5">
+    <animate attributeName="stroke-dashoffset" from="15" to="0" dur="3s" repeatCount="indefinite" />
+  </path>
+  
+  <!-- Origin Point - Canada -->
+  <circle cx="290" cy="195" r="15" fill="#E96543"/>
+  <circle cx="290" cy="195" r="8" fill="white"/>
+  
+  <!-- Destination Points -->
+  <circle cx="470" cy="330" r="10" fill="#133B57"/>
+  <circle cx="470" cy="330" r="5" fill="white"/>
+  
+  <circle cx="380" cy="480" r="10" fill="#133B57"/>
+  <circle cx="380" cy="480" r="5" fill="white"/>
+  
+  <circle cx="560" cy="450" r="10" fill="#133B57"/>
+  <circle cx="560" cy="450" r="5" fill="white"/>
+  
+  <!-- Digital Payment Elements -->
+  <!-- Credit Cards -->
+  <g transform="translate(350, 250) rotate(-15)">
+    <rect x="-25" y="-15" width="50" height="30" rx="4" fill="white" stroke="#133B57" stroke-width="1"/>
+    <rect x="-20" y="-10" width="40" height="6" rx="1" fill="#E96543"/>
+    <rect x="-20" y="0" width="25" height="4" rx="1" fill="#133B57" fill-opacity="0.3"/>
+    <rect x="-20" y="7" width="15" height="4" rx="1" fill="#133B57" fill-opacity="0.3"/>
+  </g>
+  
+  <g transform="translate(430, 350) rotate(10)">
+    <rect x="-25" y="-15" width="50" height="30" rx="4" fill="white" stroke="#133B57" stroke-width="1"/>
+    <rect x="-20" y="-10" width="40" height="6" rx="1" fill="#E96543"/>
+    <rect x="-20" y="0" width="25" height="4" rx="1" fill="#133B57" fill-opacity="0.3"/>
+    <rect x="-20" y="7" width="15" height="4" rx="1" fill="#133B57" fill-opacity="0.3"/>
+  </g>
+  
+  <!-- Mobile Phones -->
+  <g transform="translate(490, 400) rotate(-5)">
+    <rect x="-12" y="-20" width="24" height="40" rx="3" fill="white" stroke="#133B57" stroke-width="1"/>
+    <rect x="-8" y="-16" width="16" height="28" rx="1" fill="#133B57" fill-opacity="0.1"/>
+    <circle cx="0" cy="16" r="2" fill="#133B57" fill-opacity="0.3"/>
+  </g>
+  
+  <g transform="translate(320, 380) rotate(5)">
+    <rect x="-12" y="-20" width="24" height="40" rx="3" fill="white" stroke="#133B57" stroke-width="1"/>
+    <rect x="-8" y="-16" width="16" height="28" rx="1" fill="#133B57" fill-opacity="0.1"/>
+    <circle cx="0" cy="16" r="2" fill="#133B57" fill-opacity="0.3"/>
+  </g>
+  
+  <!-- Blockchain Elements -->
+  <g transform="translate(280, 300)">
+    <rect x="-15" y="-15" width="30" height="30" rx="3" fill="white" stroke="#E96543" stroke-width="2"/>
+    <path d="M-5 -5L5 -5L5 5L-5 5Z" fill="#E96543"/>
+    <path d="M-8 -8L8 -8L8 8L-8 8Z" stroke="#E96543" stroke-width="1" fill="none"/>
+  </g>
+  
+  <g transform="translate(380, 400)">
+    <rect x="-15" y="-15" width="30" height="30" rx="3" fill="white" stroke="#E96543" stroke-width="2"/>
+    <path d="M-5 -5L5 -5L5 5L-5 5Z" fill="#E96543"/>
+    <path d="M-8 -8L8 -8L8 8L-8 8Z" stroke="#E96543" stroke-width="1" fill="none"/>
+  </g>
+  
+  <g transform="translate(500, 350)">
+    <rect x="-15" y="-15" width="30" height="30" rx="3" fill="white" stroke="#E96543" stroke-width="2"/>
+    <path d="M-5 -5L5 -5L5 5L-5 5Z" fill="#E96543"/>
+    <path d="M-8 -8L8 -8L8 8L-8 8Z" stroke="#E96543" stroke-width="1" fill="none"/>
+  </g>
+  
+  <!-- Currency Symbols -->
+  <g transform="translate(370, 200)">
+    <circle cx="0" cy="0" r="18" fill="#E96543" fill-opacity="0.2"/>
+    <path d="M0 -8V8M-5 -5H5M-5 5H5" stroke="#E96543" stroke-width="2"/>
+  </g>
+  
+  <g transform="translate(450, 280)">
+    <circle cx="0" cy="0" r="18" fill="#E96543" fill-opacity="0.2"/>
+    <text x="-6" y="6" font-family="Arial" font-size="18" font-weight="bold" fill="#E96543">€</text>
+  </g>
+  
+  <g transform="translate(520, 200)">
+    <circle cx="0" cy="0" r="18" fill="#E96543" fill-opacity="0.2"/>
+    <text x="-6" y="6" font-family="Arial" font-size="18" font-weight="bold" fill="#E96543">¥</text>
+  </g>
+  
+  <g transform="translate(410, 450)">
+    <circle cx="0" cy="0" r="18" fill="#E96543" fill-opacity="0.2"/>
+    <text x="-6" y="6" font-family="Arial" font-size="18" font-weight="bold" fill="#E96543">£</text>
+  </g>
+  
+  <!-- Speed Lines for Fast Transfers -->
+  <path d="M330 230C340 240 350 250 360 260" stroke="#E96543" stroke-width="2" stroke-opacity="0.7"/>
+  <path d="M340 240C350 250 360 260 370 270" stroke="#E96543" stroke-width="2" stroke-opacity="0.5"/>
+  <path d="M350 250C360 260 370 270 380 280" stroke="#E96543" stroke-width="2" stroke-opacity="0.3"/>
+  
+  <path d="M330 300C340 320 350 340 360 360" stroke="#E96543" stroke-width="2" stroke-opacity="0.7"/>
+  <path d="M340 310C350 330 360 350 370 370" stroke="#E96543" stroke-width="2" stroke-opacity="0.5"/>
+  <path d="M350 320C360 340 370 360 380 380" stroke="#E96543" stroke-width="2" stroke-opacity="0.3"/>
+  
+  <path d="M400 250C420 270 440 290 460 310" stroke="#E96543" stroke-width="2" stroke-opacity="0.7"/>
+  <path d="M410 260C430 280 450 300 470 320" stroke="#E96543" stroke-width="2" stroke-opacity="0.5"/>
+  <path d="M420 270C440 290 460 310 480 330" stroke="#E96543" stroke-width="2" stroke-opacity="0.3"/>
+</svg> 

@@ -1,0 +1,232 @@
+.partner-banner {
+  padding: 40px 0;
+  background-color: #f8f9fa;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  width: 100%;
+}
+
+.partner-banner .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.partner-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.partner-title h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--navy);
+  margin: 0;
+  opacity: 0.7;
+}
+
+.partner-logos-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.partner-logos {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 40px;
+  position: relative;
+  width: max-content; /* Allow content to determine width */
+  padding: 10px 0;
+  will-change: transform;
+  /* Animation will be applied via JavaScript */
+}
+
+/* Hide scrollbar */
+.partner-logos::-webkit-scrollbar {
+  display: none;
+}
+
+.partner-logos {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.partner-logo {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+  transition: all 0.3s ease;
+  flex: 0 0 auto;
+  padding: 0 5px;
+}
+
+.logo-image {
+  max-height: 100%;
+  max-width: 150px;
+  object-fit: contain;
+  /* Removed grayscale filter */
+  transition: transform 0.3s ease;
+}
+
+.logo-image:hover {
+  transform: scale(1.05);
+}
+
+.fallback-logo {
+  width: 120px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 12px;
+  text-align: center;
+  color: #555;
+  font-weight: 500;
+}
+
+/* Add a gradient fade effect on the edges */
+.partner-logos-container::before,
+.partner-logos-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.partner-logos-container::before {
+  left: 0;
+  background: linear-gradient(to right, #f8f9fa, transparent);
+}
+
+.partner-logos-container::after {
+  right: 0;
+  background: linear-gradient(to left, #f8f9fa, transparent);
+}
+
+/* Define the scrolling animation */
+@keyframes scrollRightToLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 1200px) {
+  .partner-logos {
+    gap: 30px;
+  }
+  
+  .partner-logo {
+    height: 65px;
+  }
+  
+  .logo-image {
+    max-width: 130px;
+  }
+}
+
+@media (max-width: 992px) {
+  .partner-logos {
+    gap: 25px;
+  }
+  
+  .partner-logo {
+    height: 60px;
+  }
+  
+  .logo-image {
+    max-width: 120px;
+  }
+  
+  .fallback-logo {
+    width: 100px;
+    height: 50px;
+    font-size: 11px;
+  }
+  
+  .partner-logos-container::before,
+  .partner-logos-container::after {
+    width: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .partner-banner {
+    padding: 30px 0;
+  }
+  
+  .partner-title h3 {
+    font-size: 18px;
+  }
+  
+  .partner-logos {
+    gap: 20px;
+  }
+  
+  .partner-logo {
+    height: 50px;
+    min-width: 100px;
+  }
+  
+  .logo-image {
+    max-width: 100px;
+  }
+  
+  .fallback-logo {
+    width: 90px;
+    height: 45px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .partner-banner {
+    padding: 25px 0;
+  }
+  
+  .partner-title {
+    margin-bottom: 20px;
+  }
+  
+  .partner-title h3 {
+    font-size: 16px;
+  }
+  
+  .partner-logos {
+    gap: 15px;
+  }
+  
+  .partner-logo {
+    height: 45px;
+    min-width: 90px;
+  }
+  
+  .logo-image {
+    max-width: 80px;
+  }
+  
+  .fallback-logo {
+    width: 80px;
+    height: 40px;
+    font-size: 9px;
+  }
+  
+  .partner-logos-container::before,
+  .partner-logos-container::after {
+    width: 20px;
+  }
+} 

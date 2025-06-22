@@ -1,0 +1,15 @@
+:root {
+  --navy: #133B57;
+  --orange: #E96543;
+  --white: #FFFFFF;
+  --grey: #475569;
+  --orange-pressed: #B23C1B;
+  --orange-hover: #EB866A;
+  
+  /* Additional complementary colors */
+  --navy-light: #1e5a85;
+  --navy-dark: #0c2436;
+  --grey-light: #6e7891;
+  --grey-dark: #2d3748;
+  --background-light: #f8f9fa;
+} 
