@@ -30,7 +30,7 @@ const HowItWorksSection: React.FC = () => {
                 <div className="step-number">2</div>
                 <div className="step-content">
                   <h3>Fund Your Wallet</h3>
-                  <p>Add funds to your Kavodax wallet using bank transfer, credit card, or cryptocurrency.</p>
+                  <p>Add funds to your Kavodax wallet using bank transfer, credit card, or stablecoins.</p>
                 </div>
               </div>
               

@@ -65,34 +65,34 @@ const partners = [
     name: 'Venture for Canada', 
     logo: ventureForCanadaLogo
   },
-  { 
-    name: 'RiiPen', 
-    logo: riipenLogo
-  },
-  { 
-    name: 'Grow Class', 
-    logo: growClassLogo
-  },
+  // { 
+  //   name: 'RiiPen', 
+  //   logo: riipenLogo
+  // },
+  // { 
+  //   name: 'Grow Class', 
+  //   logo: growClassLogo
+  // },
   { 
     name: 'CodeLaunch', 
     logo: codeLaunchLogo
   },
-  { 
-    name: 'PostHog', 
-    logo: postHogLogo
-  },
+  // { 
+  //   name: 'PostHog', 
+  //   logo: postHogLogo
+  // },
   { 
     name: 'OVHCloud', 
     logo: ovhCloudLogo
   },
-  { 
-    name: 'MLD Solutions', 
-    logo: mldSolutionsLogo
-  },
-  { 
-    name: 'Yellowcard', 
-    logo: yellowcardLogo
-  },
+  // { 
+  //   name: 'MLD Solutions', 
+  //   logo: mldSolutionsLogo
+  // },
+  // { 
+  //   name: 'Yellowcard', 
+  //   logo: yellowcardLogo
+  // },
   { 
     name: 'PortalHQ', 
     logo: portalHQLogo
@@ -183,7 +183,7 @@ const PartnerBanner: React.FC = () => {
     <section className="partner-banner" ref={bannerRef}>
       <div className="container">
         <div className="partner-title">
-          <h3>Supported By Leading Organizations</h3>
+          <h3>Supported By Channel Partners</h3>
         </div>
         <div className="partner-logos-container">
           <div className="partner-logos" ref={logosContainerRef}>

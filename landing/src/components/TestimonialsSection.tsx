@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './TestimonialsSection.css';
 import t1Image from '../assets/t1.jpg';
-import t2Image from '../assets/t2.jpg';
+import t2Image from '../assets/t2.jpeg';
 import t3Image from '../assets/t3.jpg';
 
 const TestimonialsSection: React.FC = () => {
@@ -15,7 +15,7 @@ const TestimonialsSection: React.FC = () => {
     <section className="testimonials-section">
       <div className="container">
         <div className="section-title">
-          <h2>Customer feedbacks</h2>
+          <h2>Customer Testimonials</h2>
           <p className="subtitle">See our products in <span className="highlight">action</span></p>
         </div>
         
@@ -56,7 +56,7 @@ const TestimonialsSection: React.FC = () => {
           {/* Text testimonial 1 */}
           <div className="testimonial-card">
             <p className="testimonial-text">
-              "Kavodax has revolutionized how we handle international payments. We've cut our transfer fees by 85% and now complete transactions in minutes instead of days."
+              "Kavodax has revolutionized how we handle international payments. We've cut our transfer fees by <a href="https://kavodax.gitbook.io/kavodax-docs/3.-solution" className="underline">85%</a> and now complete transactions in minutes instead of days."
             </p>
             <div className="testimonial-author">
               <div className="testimonial-avatar">JM</div>

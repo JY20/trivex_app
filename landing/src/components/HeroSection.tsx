@@ -8,7 +8,7 @@ const HeroSection: React.FC = () => {
       <div className="container">
         <div className="hero-content">
           <div className="hero-text">
-            <h1>Revolutionizing Cross-Border B2B Payments</h1>
+            <h1>Revolutionizing Cross-Border Payments</h1>
             <p>
               Kavodax is a blockchain-powered platform enabling Canadian businesses to send money globally 
               in minutes with less than 1% fees. We use stablecoins for transparency and efficiency, 

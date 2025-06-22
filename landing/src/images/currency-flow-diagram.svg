@@ -18,10 +18,6 @@
       <stop offset="0%" stop-color="#133B57" />
       <stop offset="100%" stop-color="#0A1E2C" />
     </linearGradient>
-    <linearGradient id="eurGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#133B57" />
-      <stop offset="100%" stop-color="#0A1E2C" />
-    </linearGradient>
     <linearGradient id="ngnGradient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#133B57" />
       <stop offset="100%" stop-color="#0A1E2C" />
@@ -45,42 +41,30 @@
   </defs>
   
   <!-- Background -->
-  <rect width="800" height="500" fill="#FFFFFF" rx="10" ry="10" />
+  <rect width="800" height="500" fill="#FFFFFF" rx="10" ry="10" transform="translate(0, 30)" />
   
   <!-- Connecting Lines with animation - 5x slower -->
-  <g stroke="#E96543" stroke-width="2" marker-end="url(#arrowhead)">
+  <g stroke="#E96543" stroke-width="2" marker-end="url(#arrowhead)" transform="translate(0, 30)">
     <!-- USD to USDC -->
-    <path d="M 200 150 H 400 V 100 H 550" fill="none">
-      <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="30s" repeatCount="indefinite" />
-      <animate attributeName="stroke-dasharray" values="10,15" dur="7.5s" repeatCount="indefinite" />
-    </path>
-    
-    <!-- USD to CADC -->
-    <path d="M 150 200 V 320 H 220" fill="none">
+    <path d="M 170 120 H 380" fill="none">
       <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="30s" repeatCount="indefinite" />
       <animate attributeName="stroke-dasharray" values="10,15" dur="7.5s" repeatCount="indefinite" />
     </path>
     
     <!-- CAD to CADC -->
-    <path d="M 150 400 H 220 V 360" fill="none">
-      <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="30s" repeatCount="indefinite" />
-      <animate attributeName="stroke-dasharray" values="10,15" dur="7.5s" repeatCount="indefinite" />
-    </path>
-    
-    <!-- CADC to EUR -->
-    <path d="M 350 320 H 450 V 200 H 500" fill="none">
-      <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="30s" repeatCount="indefinite" />
-      <animate attributeName="stroke-dasharray" values="10,15" dur="7.5s" repeatCount="indefinite" />
-    </path>
-    
-    <!-- CADC to NGN -->
-    <path d="M 350 320 H 450 V 350 H 480" fill="none">
+    <path d="M 170 320 H 380" fill="none">
       <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="30s" repeatCount="indefinite" />
       <animate attributeName="stroke-dasharray" values="10,15" dur="7.5s" repeatCount="indefinite" />
     </path>
     
     <!-- USDC to NGN -->
-    <path d="M 650 150 V 350 H 600" fill="none">
+    <path d="M 500 120 H 550 V 210 H 620" fill="none">
+      <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="30s" repeatCount="indefinite" />
+      <animate attributeName="stroke-dasharray" values="10,15" dur="7.5s" repeatCount="indefinite" />
+    </path>
+    
+    <!-- CADC to NGN -->
+    <path d="M 500 320 H 550 V 210 H 620" fill="none">
       <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="30s" repeatCount="indefinite" />
       <animate attributeName="stroke-dasharray" values="10,15" dur="7.5s" repeatCount="indefinite" />
     </path>
@@ -88,7 +72,7 @@
   
   <!-- Currency Nodes -->
   <!-- USD Node -->
-  <g transform="translate(100, 150)">
+  <g transform="translate(50, 110)">
     <rect width="120" height="80" rx="20" ry="20" fill="url(#usdGradient)" filter="url(#shadow)" />
     <text x="60" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">USD</text>
     <text x="100" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#E96543" text-anchor="middle" dominant-baseline="middle">$</text>
@@ -98,7 +82,7 @@
   </g>
   
   <!-- CAD Node -->
-  <g transform="translate(30, 360)">
+  <g transform="translate(50, 310)">
     <rect width="120" height="80" rx="20" ry="20" fill="url(#cadGradient)" filter="url(#shadow)" />
     <text x="60" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">CAD</text>
     <text x="100" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#E96543" text-anchor="middle" dominant-baseline="middle">C$</text>
@@ -108,7 +92,7 @@
   </g>
   
   <!-- USDC Node -->
-  <g transform="translate(550, 70)">
+  <g transform="translate(380, 110)">
     <rect width="120" height="80" rx="20" ry="20" fill="url(#usdcGradient)" filter="url(#shadow)" />
     <text x="60" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">USDC</text>
     <text x="20" y="20" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#E96543" text-anchor="middle" dominant-baseline="middle">₿</text>
@@ -122,27 +106,21 @@
   </g>
   
   <!-- CADC Node -->
-  <g transform="translate(220, 280)">
-    <rect width="130" height="80" rx="20" ry="20" fill="url(#cadcGradient)" filter="url(#shadow)" />
-    <text x="65" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">CADC</text>
-    <text x="110" y="20" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#E96543" text-anchor="middle" dominant-baseline="middle">₿</text>
-    <circle cx="110" cy="20" r="16" fill="url(#orangeGradient)" opacity="0.2">
+  <g transform="translate(380, 310)">
+    <rect width="120" height="80" rx="20" ry="20" fill="url(#cadcGradient)" filter="url(#shadow)" />
+    <text x="60" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">CADC</text>
+    <text x="20" y="20" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#E96543" text-anchor="middle" dominant-baseline="middle">₿</text>
+    <circle cx="20" cy="20" r="16" fill="url(#orangeGradient)" opacity="0.2">
       <animate attributeName="r" values="14;18;14" dur="20s" repeatCount="indefinite" />
     </circle>
-  </g>
-  
-  <!-- EUR Node -->
-  <g transform="translate(500, 160)">
-    <rect width="120" height="80" rx="20" ry="20" fill="url(#eurGradient)" filter="url(#shadow)" />
-    <text x="60" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">EUR</text>
-    <text x="20" y="60" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#E96543" text-anchor="middle" dominant-baseline="middle">€</text>
-    <circle cx="20" cy="60" r="16" fill="url(#orangeGradient)" opacity="0.2">
+    <text x="100" y="60" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#E96543" text-anchor="middle" dominant-baseline="middle">C$</text>
+    <circle cx="100" cy="60" r="16" fill="url(#orangeGradient)" opacity="0.2">
       <animate attributeName="r" values="14;18;14" dur="20s" repeatCount="indefinite" />
     </circle>
   </g>
   
   <!-- NGN Node -->
-  <g transform="translate(480, 350)">
+  <g transform="translate(620, 210)">
     <rect width="120" height="80" rx="20" ry="20" fill="url(#ngnGradient)" filter="url(#shadow)" />
     <text x="60" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">NGN</text>
     <text x="100" y="20" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#E96543" text-anchor="middle" dominant-baseline="middle">₦</text>
@@ -152,8 +130,8 @@
   </g>
   
   <!-- Title -->
-  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#133B57" text-anchor="middle">Cross-Border Currency Flow</text>
+  <text x="400" y="20" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#133B57" text-anchor="middle">Cross-Border Currency Flow</text>
   
   <!-- Kavodax branding -->
-  <text x="400" y="470" font-family="Arial, sans-serif" font-size="16" fill="#475569" text-anchor="middle" opacity="0.7">Powered by Kavodax</text>
-</svg> 
+  <text x="400" y="500" font-family="Arial, sans-serif" font-size="16" fill="#475569" text-anchor="middle" opacity="0.7">Powered by Kavodax</text>
+</svg>

@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
-import logo from '../assets/logo2.png';
+import logo from '../assets/logo5.png';
 
 const Header: React.FC = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <header className="header">
       <div className="container">
@@ -11,9 +17,20 @@ const Header: React.FC = () => {
             <img src={logo} alt="Kavodax Logo" className="logo-img" />
             <h1 className="logo-text">Kavodax</h1>
           </div>
-          <div className="nav-buttons">
+          
+          {/* Mobile menu button */}
+          <div className="mobile-menu-button" onClick={toggleMenu}>
+            <div className={`hamburger ${isMenuOpen ? 'open' : ''}`}>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          
+          {/* Navigation buttons - desktop and mobile */}
+          <div className={`nav-buttons ${isMenuOpen ? 'show' : ''}`}>
             <a href="https://kavodax.gitbook.io/kavodax-docs/" target="_blank" rel="noopener noreferrer" className="btn">Docs</a>
-            <a href="https://app.kavodax.com" className="btn btn-primary">Launch App</a>
+            <a href="https://app.kavodax.com" className="btn btn-primary">Get Started</a>
           </div>
         </div>
       </div>

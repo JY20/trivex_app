@@ -54,7 +54,7 @@ const FeaturesSection: React.FC = () => {
               </svg>
             </div>
             <h3>Financial Inclusion</h3>
-            <p>Empowering 1.5 billion unbanked individuals worldwide with access to modern financial services.</p>
+            <p>Here to help 1.5 billion unbanked individuals worldwide with access to modern financial services.</p>
           </div>
           
           <div className="feature-card">
