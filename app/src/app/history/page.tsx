@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { useAuth } from '@/context/AuthContext';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Sidebar from '@/components/Sidebar';
@@ -35,7 +35,7 @@ interface GroupedTransaction {
   stellarTransactionHash?: string;
 }
 
-export default function HistoryPage() {
+function HistoryPageContent() {
   const { user, isLoading } = useAuth();
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -486,3 +486,11 @@ export default function HistoryPage() {
     </div>
   );
 } 
+
+export default function HistoryPage() {
+  return (
+    <Suspense fallback={<div className="flex min-h-screen flex-col items-center justify-center bg-gray-50">Loading...</div>}>
+      <HistoryPageContent />
+    </Suspense>
+  );
+}
