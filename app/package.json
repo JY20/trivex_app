@@ -1,0 +1,50 @@
+{
+  "name": "kavodax",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:ci": "jest --ci --coverage --watchAll=false"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.2.3",
+    "bcrypt": "^6.0.0",
+    "chart.js": "^4.5.0",
+    "dotenv": "^16.5.0",
+    "iron-session": "^8.0.4",
+    "next": "15.3.4",
+    "react": "^19.0.0",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
+    "stellar-sdk": "^13.3.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@playwright/test": "^1.53.1",
+    "@tailwindcss/postcss": "^4",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/bcrypt": "^5.0.2",
+    "@types/jest": "^30.0.0",
+    "@types/node": "20.19.1",
+    "@types/react": "19.1.8",
+    "@types/react-dom": "^19",
+    "@types/uuid": "^10.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.4",
+    "jest": "^30.0.2",
+    "jest-environment-jsdom": "^30.0.2",
+    "playwright": "^1.53.1",
+    "tailwindcss": "^4",
+    "typescript": "5.8.3"
+  }
+}

@@ -1,0 +1,1315 @@
+{
+  "transactions": {
+    "TXN-MC9DXTZ2-B1605DA6": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "on-ramp",
+      "amount": 100,
+      "currency": "CAD",
+      "fromAccount": "Bank Account",
+      "toAccount": "Kavodax Wallet",
+      "status": "completed",
+      "description": "Convert CAD to XLM for payment",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "originalAmount": 100
+      },
+      "id": "TXN-MC9DXTZ2-B1605DA6",
+      "timestamp": "2025-06-23T17:43:27.230Z",
+      "stellarTransactionHash": "3b0ef1f80c75723d189de1cc0f36474adb07c69f33e0c8d1850f9fca6c05de2c"
+    },
+    "TXN-MC9DXTZ5-9C2CBDC9": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "transfer",
+      "amount": 100,
+      "currency": "CAD",
+      "fromAccount": "Kavodax Wallet",
+      "toAccount": "Stellar Network",
+      "status": "completed",
+      "description": "Transfer XLM via Stellar Network to GB2JEP3B...",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "onRampTransactionId": "TXN-MC9DXTZ2-B1605DA6",
+        "originalAmount": 100
+      },
+      "id": "TXN-MC9DXTZ5-9C2CBDC9",
+      "timestamp": "2025-06-23T17:43:27.233Z",
+      "stellarTransactionHash": "3b0ef1f80c75723d189de1cc0f36474adb07c69f33e0c8d1850f9fca6c05de2c"
+    },
+    "TXN-MC9DXTZ7-238FA2F5": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "off-ramp",
+      "amount": 100,
+      "currency": "CAD",
+      "fromAccount": "Stellar Network",
+      "toAccount": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+      "status": "completed",
+      "description": "Convert XLM to CAD for recipient",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "onRampTransactionId": "TXN-MC9DXTZ2-B1605DA6",
+        "transferTransactionId": "TXN-MC9DXTZ5-9C2CBDC9",
+        "originalAmount": 100
+      },
+      "id": "TXN-MC9DXTZ7-238FA2F5",
+      "timestamp": "2025-06-23T17:43:27.235Z",
+      "stellarTransactionHash": "3b0ef1f80c75723d189de1cc0f36474adb07c69f33e0c8d1850f9fca6c05de2c",
+      "balance": -100
+    },
+    "TXN-MC9DY33Z-5CDE3468": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "on-ramp",
+      "amount": 100,
+      "currency": "CAD",
+      "fromAccount": "Bank Account",
+      "toAccount": "Kavodax Wallet",
+      "status": "completed",
+      "description": "Convert CAD to XLM for payment",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "originalAmount": 100
+      },
+      "id": "TXN-MC9DY33Z-5CDE3468",
+      "timestamp": "2025-06-23T17:43:39.071Z",
+      "stellarTransactionHash": "7bf055475bdf7b08da132b25addcae7a0efc096b38b0197dd4910cbbb5f29982"
+    },
+    "TXN-MC9DY341-F9D612D8": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "transfer",
+      "amount": 100,
+      "currency": "CAD",
+      "fromAccount": "Kavodax Wallet",
+      "toAccount": "Stellar Network",
+      "status": "completed",
+      "description": "Transfer XLM via Stellar Network to GB2JEP3B...",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "onRampTransactionId": "TXN-MC9DY33Z-5CDE3468",
+        "originalAmount": 100
+      },
+      "id": "TXN-MC9DY341-F9D612D8",
+      "timestamp": "2025-06-23T17:43:39.073Z",
+      "stellarTransactionHash": "7bf055475bdf7b08da132b25addcae7a0efc096b38b0197dd4910cbbb5f29982"
+    },
+    "TXN-MC9DY344-09AA25E3": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "off-ramp",
+      "amount": 100,
+      "currency": "CAD",
+      "fromAccount": "Stellar Network",
+      "toAccount": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+      "status": "completed",
+      "description": "Convert XLM to CAD for recipient",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "onRampTransactionId": "TXN-MC9DY33Z-5CDE3468",
+        "transferTransactionId": "TXN-MC9DY341-F9D612D8",
+        "originalAmount": 100
+      },
+      "id": "TXN-MC9DY344-09AA25E3",
+      "timestamp": "2025-06-23T17:43:39.076Z",
+      "stellarTransactionHash": "7bf055475bdf7b08da132b25addcae7a0efc096b38b0197dd4910cbbb5f29982",
+      "balance": -200
+    },
+    "TXN-MC9E0A86-1E06E9B0": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "on-ramp",
+      "amount": 100,
+      "currency": "CAD",
+      "fromAccount": "Bank Account",
+      "toAccount": "Kavodax Wallet",
+      "status": "completed",
+      "description": "Convert CAD to XLM for payment",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "originalAmount": 100
+      },
+      "id": "TXN-MC9E0A86-1E06E9B0",
+      "timestamp": "2025-06-23T17:45:21.606Z",
+      "stellarTransactionHash": "5f7110b3e358a0e345a7c4bc06b103fc24672a78d6b774944bd5faeb97b6f0ae"
+    },
+    "TXN-MC9E0A89-E43B3FF8": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "transfer",
+      "amount": 100,
+      "currency": "CAD",
+      "fromAccount": "Kavodax Wallet",
+      "toAccount": "Stellar Network",
+      "status": "completed",
+      "description": "Transfer XLM via Stellar Network to GB2JEP3B...",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "onRampTransactionId": "TXN-MC9E0A86-1E06E9B0",
+        "originalAmount": 100
+      },
+      "id": "TXN-MC9E0A89-E43B3FF8",
+      "timestamp": "2025-06-23T17:45:21.609Z",
+      "stellarTransactionHash": "5f7110b3e358a0e345a7c4bc06b103fc24672a78d6b774944bd5faeb97b6f0ae"
+    },
+    "TXN-MC9E0A8C-8DC9A179": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "off-ramp",
+      "amount": 100,
+      "currency": "CAD",
+      "fromAccount": "Stellar Network",
+      "toAccount": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+      "status": "completed",
+      "description": "Convert XLM to CAD for recipient",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "onRampTransactionId": "TXN-MC9E0A86-1E06E9B0",
+        "transferTransactionId": "TXN-MC9E0A89-E43B3FF8",
+        "originalAmount": 100
+      },
+      "id": "TXN-MC9E0A8C-8DC9A179",
+      "timestamp": "2025-06-23T17:45:21.612Z",
+      "stellarTransactionHash": "5f7110b3e358a0e345a7c4bc06b103fc24672a78d6b774944bd5faeb97b6f0ae",
+      "balance": -300
+    },
+    "TXN-MC9E26R6-3C9D48D1": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "on-ramp",
+      "amount": 100,
+      "currency": "CAD",
+      "fromAccount": "Bank Account",
+      "toAccount": "Kavodax Wallet",
+      "status": "completed",
+      "description": "Convert CAD to XLM for payment",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "originalAmount": 100
+      },
+      "id": "TXN-MC9E26R6-3C9D48D1",
+      "timestamp": "2025-06-23T17:46:50.418Z",
+      "stellarTransactionHash": "eef28bf1114b7d3a051bfaba461b4482ebe5f88e5137a3f9546c61cc95b0c659"
+    },
+    "TXN-MC9E26S7-FE0AC440": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "transfer",
+      "amount": 100,
+      "currency": "CAD",
+      "fromAccount": "Kavodax Wallet",
+      "toAccount": "Stellar Network",
+      "status": "completed",
+      "description": "Transfer XLM via Stellar Network to GB2JEP3B...",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "onRampTransactionId": "TXN-MC9E26R6-3C9D48D1",
+        "originalAmount": 100
+      },
+      "id": "TXN-MC9E26S7-FE0AC440",
+      "timestamp": "2025-06-23T17:46:50.455Z",
+      "stellarTransactionHash": "eef28bf1114b7d3a051bfaba461b4482ebe5f88e5137a3f9546c61cc95b0c659"
+    },
+    "TXN-MC9E26SB-753E108D": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "off-ramp",
+      "amount": 100,
+      "currency": "CAD",
+      "fromAccount": "Stellar Network",
+      "toAccount": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+      "status": "completed",
+      "description": "Convert XLM to CAD for recipient",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "onRampTransactionId": "TXN-MC9E26R6-3C9D48D1",
+        "transferTransactionId": "TXN-MC9E26S7-FE0AC440",
+        "originalAmount": 100
+      },
+      "id": "TXN-MC9E26SB-753E108D",
+      "timestamp": "2025-06-23T17:46:50.459Z",
+      "stellarTransactionHash": "eef28bf1114b7d3a051bfaba461b4482ebe5f88e5137a3f9546c61cc95b0c659",
+      "balance": -400
+    },
+    "TXN-MC9E7FYG-D92EF7B7": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "on-ramp",
+      "amount": 9,
+      "currency": "CAD",
+      "fromAccount": "Bank Account",
+      "toAccount": "Kavodax Wallet",
+      "status": "completed",
+      "description": "Convert CAD to XLM for payment",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "originalAmount": 9
+      },
+      "id": "TXN-MC9E7FYG-D92EF7B7",
+      "timestamp": "2025-06-23T17:50:55.625Z",
+      "stellarTransactionHash": "8829d85f16bb5a589807101eac0e828b6f86fbeed620138bca97c1060bb633dd"
+    },
+    "TXN-MC9E7FYK-CD97A816": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "transfer",
+      "amount": 9,
+      "currency": "CAD",
+      "fromAccount": "Kavodax Wallet",
+      "toAccount": "Stellar Network",
+      "status": "completed",
+      "description": "Transfer XLM via Stellar Network to GB2JEP3B...",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "onRampTransactionId": "TXN-MC9E7FYG-D92EF7B7",
+        "originalAmount": 9
+      },
+      "id": "TXN-MC9E7FYK-CD97A816",
+      "timestamp": "2025-06-23T17:50:55.628Z",
+      "stellarTransactionHash": "8829d85f16bb5a589807101eac0e828b6f86fbeed620138bca97c1060bb633dd"
+    },
+    "TXN-MC9E7FYO-4F667CF1": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "off-ramp",
+      "amount": 9,
+      "currency": "CAD",
+      "fromAccount": "Stellar Network",
+      "toAccount": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+      "status": "completed",
+      "description": "Convert XLM to CAD for recipient",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "onRampTransactionId": "TXN-MC9E7FYG-D92EF7B7",
+        "transferTransactionId": "TXN-MC9E7FYK-CD97A816",
+        "originalAmount": 9
+      },
+      "id": "TXN-MC9E7FYO-4F667CF1",
+      "timestamp": "2025-06-23T17:50:55.632Z",
+      "stellarTransactionHash": "8829d85f16bb5a589807101eac0e828b6f86fbeed620138bca97c1060bb633dd",
+      "balance": -409
+    },
+    "TXN-MC9E99YA-06ACC474": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "deposit",
+      "amount": 10,
+      "currency": "CAD",
+      "fromAccount": "Pioneer Bank - 1920827",
+      "toAccount": "Kavodax Wallet",
+      "status": "completed",
+      "description": "Load money from Pioneer Bank",
+      "metadata": {
+        "bankAccountId": "pioneer-205fcd84-bb31-48ad-a893-cd214aefc801",
+        "bankAccountDetails": {
+          "id": "pioneer-205fcd84-bb31-48ad-a893-cd214aefc801",
+          "bankId": "pioneer-bank",
+          "bankName": "Pioneer Bank",
+          "bankCode": "PION",
+          "accountNumber": "1920827",
+          "transitNumber": "12345",
+          "isPrimary": true,
+          "isPioneerBank": true,
+          "stellarPublicKey": "GALLCHIS2QWIHS2UVP53C7TD6WFQMOC276XSPNBYRM5JGISDKLOCIWBU"
+        },
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "sourceStellarAccount": "GALLCHIS2QWIHS2UVP53C7TD6WFQMOC276XSPNBYRM5JGISDKLOCIWBU",
+        "originalAmount": 10
+      },
+      "id": "TXN-MC9E99YA-06ACC474",
+      "timestamp": "2025-06-23T17:52:21.154Z",
+      "stellarTransactionHash": "3ee55b8089cf0f51361f7370129bb842ec5c0d1af5bc1d855b4bc248ab8fd043",
+      "balance": 10
+    },
+    "TXN-MC9E9PGY-2243914B": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "withdrawal",
+      "amount": 100,
+      "currency": "CAD",
+      "fromAccount": "Kavodax Wallet",
+      "toAccount": "Pioneer Bank - 1920827",
+      "status": "completed",
+      "description": "Withdrawal to Pioneer Bank",
+      "metadata": {
+        "bankAccountId": "pioneer-205fcd84-bb31-48ad-a893-cd214aefc801",
+        "bankAccountDetails": {
+          "id": "pioneer-205fcd84-bb31-48ad-a893-cd214aefc801",
+          "bankId": "pioneer-bank",
+          "bankName": "Pioneer Bank",
+          "bankCode": "PION",
+          "accountNumber": "1920827",
+          "transitNumber": "12345",
+          "isPrimary": true,
+          "isPioneerBank": true,
+          "stellarPublicKey": "GALLCHIS2QWIHS2UVP53C7TD6WFQMOC276XSPNBYRM5JGISDKLOCIWBU"
+        },
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationStellarAccount": "GALLCHIS2QWIHS2UVP53C7TD6WFQMOC276XSPNBYRM5JGISDKLOCIWBU",
+        "originalAmount": 100
+      },
+      "id": "TXN-MC9E9PGY-2243914B",
+      "timestamp": "2025-06-23T17:52:41.266Z",
+      "stellarTransactionHash": "3d4c8b39aeb7f1feafe506934c58bc3d5401b4c1aa20f0285337b46ae816ba0b",
+      "balance": -303.2047106
+    },
+    "TXN-MC9E9Z2Q-8B016F65": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "deposit",
+      "amount": 201,
+      "currency": "CAD",
+      "fromAccount": "Pioneer Bank - 1920827",
+      "toAccount": "Kavodax Wallet",
+      "status": "completed",
+      "description": "Load money from Pioneer Bank",
+      "metadata": {
+        "bankAccountId": "pioneer-205fcd84-bb31-48ad-a893-cd214aefc801",
+        "bankAccountDetails": {
+          "id": "pioneer-205fcd84-bb31-48ad-a893-cd214aefc801",
+          "bankId": "pioneer-bank",
+          "bankName": "Pioneer Bank",
+          "bankCode": "PION",
+          "accountNumber": "1920827",
+          "transitNumber": "12345",
+          "isPrimary": true,
+          "isPioneerBank": true,
+          "stellarPublicKey": "GALLCHIS2QWIHS2UVP53C7TD6WFQMOC276XSPNBYRM5JGISDKLOCIWBU"
+        },
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "sourceStellarAccount": "GALLCHIS2QWIHS2UVP53C7TD6WFQMOC276XSPNBYRM5JGISDKLOCIWBU",
+        "originalAmount": 201
+      },
+      "id": "TXN-MC9E9Z2Q-8B016F65",
+      "timestamp": "2025-06-23T17:52:53.714Z",
+      "stellarTransactionHash": "7d42923b06e6466de887dddb1017df948068884ca40e96adf3e03106eff94c9c",
+      "balance": 201
+    },
+    "TXN-MC9EADP3-621C6723": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "on-ramp",
+      "amount": 100,
+      "currency": "CAD",
+      "fromAccount": "Bank Account",
+      "toAccount": "Kavodax Wallet",
+      "status": "completed",
+      "description": "Convert CAD to XLM for payment",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "originalAmount": 100
+      },
+      "id": "TXN-MC9EADP3-621C6723",
+      "timestamp": "2025-06-23T17:53:12.663Z",
+      "stellarTransactionHash": "5f70c1b6ee561a3f2daf1b2cb5400267c5e69b4862c9d0f7f8e74913f0479cd1"
+    },
+    "TXN-MC9EADPA-2D9027AD": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "transfer",
+      "amount": 100,
+      "currency": "CAD",
+      "fromAccount": "Kavodax Wallet",
+      "toAccount": "Stellar Network",
+      "status": "completed",
+      "description": "Transfer XLM via Stellar Network to GB2JEP3B...",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "onRampTransactionId": "TXN-MC9EADP3-621C6723",
+        "originalAmount": 100
+      },
+      "id": "TXN-MC9EADPA-2D9027AD",
+      "timestamp": "2025-06-23T17:53:12.670Z",
+      "stellarTransactionHash": "5f70c1b6ee561a3f2daf1b2cb5400267c5e69b4862c9d0f7f8e74913f0479cd1"
+    },
+    "TXN-MC9EADPH-3441DD03": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "off-ramp",
+      "amount": 100,
+      "currency": "CAD",
+      "fromAccount": "Stellar Network",
+      "toAccount": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+      "status": "completed",
+      "description": "Convert XLM to CAD for recipient",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "onRampTransactionId": "TXN-MC9EADP3-621C6723",
+        "transferTransactionId": "TXN-MC9EADPA-2D9027AD",
+        "originalAmount": 100
+      },
+      "id": "TXN-MC9EADPH-3441DD03",
+      "timestamp": "2025-06-23T17:53:12.677Z",
+      "stellarTransactionHash": "5f70c1b6ee561a3f2daf1b2cb5400267c5e69b4862c9d0f7f8e74913f0479cd1",
+      "balance": 101
+    },
+    "TXN-MC9EAZTQ-DEC4490F": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "deposit",
+      "amount": 22,
+      "currency": "CAD",
+      "fromAccount": "Pioneer Bank - 1920827",
+      "toAccount": "Kavodax Wallet",
+      "status": "completed",
+      "description": "Load money from Pioneer Bank",
+      "metadata": {
+        "bankAccountId": "pioneer-205fcd84-bb31-48ad-a893-cd214aefc801",
+        "bankAccountDetails": {
+          "id": "pioneer-205fcd84-bb31-48ad-a893-cd214aefc801",
+          "bankId": "pioneer-bank",
+          "bankName": "Pioneer Bank",
+          "bankCode": "PION",
+          "accountNumber": "1920827",
+          "transitNumber": "12345",
+          "isPrimary": true,
+          "isPioneerBank": true,
+          "stellarPublicKey": "GALLCHIS2QWIHS2UVP53C7TD6WFQMOC276XSPNBYRM5JGISDKLOCIWBU"
+        },
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "sourceStellarAccount": "GALLCHIS2QWIHS2UVP53C7TD6WFQMOC276XSPNBYRM5JGISDKLOCIWBU",
+        "originalAmount": 22
+      },
+      "id": "TXN-MC9EAZTQ-DEC4490F",
+      "timestamp": "2025-06-23T17:53:41.343Z",
+      "stellarTransactionHash": "bd54883e612e33c15a7c4f2754bb064dfee2e1d32fb069ce3b35105f545c6cf5",
+      "balance": 22
+    },
+    "TXN-MC9EB8K4-6C822385": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "on-ramp",
+      "amount": 1000,
+      "currency": "CAD",
+      "fromAccount": "Bank Account",
+      "toAccount": "Kavodax Wallet",
+      "status": "completed",
+      "description": "Convert CAD to XLM for payment",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "originalAmount": 1000
+      },
+      "id": "TXN-MC9EB8K4-6C822385",
+      "timestamp": "2025-06-23T17:53:52.660Z",
+      "stellarTransactionHash": "b418ea2ebb10ab42b696da33fdec21657fd8fc9b94eb8bae36526ab05e5df987"
+    },
+    "TXN-MC9EB8K9-8FEF8209": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "transfer",
+      "amount": 1000,
+      "currency": "CAD",
+      "fromAccount": "Kavodax Wallet",
+      "toAccount": "Stellar Network",
+      "status": "completed",
+      "description": "Transfer XLM via Stellar Network to GB2JEP3B...",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "onRampTransactionId": "TXN-MC9EB8K4-6C822385",
+        "originalAmount": 1000
+      },
+      "id": "TXN-MC9EB8K9-8FEF8209",
+      "timestamp": "2025-06-23T17:53:52.666Z",
+      "stellarTransactionHash": "b418ea2ebb10ab42b696da33fdec21657fd8fc9b94eb8bae36526ab05e5df987"
+    },
+    "TXN-MC9EB8KF-E5273288": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "off-ramp",
+      "amount": 1000,
+      "currency": "CAD",
+      "fromAccount": "Stellar Network",
+      "toAccount": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+      "status": "completed",
+      "description": "Convert XLM to CAD for recipient",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "onRampTransactionId": "TXN-MC9EB8K4-6C822385",
+        "transferTransactionId": "TXN-MC9EB8K9-8FEF8209",
+        "originalAmount": 1000
+      },
+      "id": "TXN-MC9EB8KF-E5273288",
+      "timestamp": "2025-06-23T17:53:52.671Z",
+      "stellarTransactionHash": "b418ea2ebb10ab42b696da33fdec21657fd8fc9b94eb8bae36526ab05e5df987",
+      "balance": -978
+    },
+    "TXN-MC9EFMKK-AC55BF60": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "on-ramp",
+      "amount": 1000,
+      "currency": "CAD",
+      "fromAccount": "Bank Account",
+      "toAccount": "Kavodax Wallet",
+      "status": "failed",
+      "description": "Convert CAD to XLM for payment",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "originalAmount": 1000
+      },
+      "id": "TXN-MC9EFMKK-AC55BF60",
+      "timestamp": "2025-06-23T17:57:17.444Z"
+    },
+    "TXN-MC9EFMKR-98EB4BEE": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "transfer",
+      "amount": 1000,
+      "currency": "CAD",
+      "fromAccount": "Kavodax Wallet",
+      "toAccount": "Stellar Network",
+      "status": "failed",
+      "description": "Transfer XLM via Stellar Network to GB2JEP3B...",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "onRampTransactionId": "TXN-MC9EFMKK-AC55BF60",
+        "originalAmount": 1000
+      },
+      "id": "TXN-MC9EFMKR-98EB4BEE",
+      "timestamp": "2025-06-23T17:57:17.451Z"
+    },
+    "TXN-MC9EFML6-B8C9AA0D": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "off-ramp",
+      "amount": 1000,
+      "currency": "CAD",
+      "fromAccount": "Stellar Network",
+      "toAccount": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+      "status": "failed",
+      "description": "Convert XLM to CAD for recipient",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "onRampTransactionId": "TXN-MC9EFMKK-AC55BF60",
+        "transferTransactionId": "TXN-MC9EFMKR-98EB4BEE",
+        "originalAmount": 1000
+      },
+      "id": "TXN-MC9EFML6-B8C9AA0D",
+      "timestamp": "2025-06-23T17:57:17.466Z"
+    },
+    "TXN-MC9EFPXW-5549001B": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "on-ramp",
+      "amount": 1000,
+      "currency": "CAD",
+      "fromAccount": "Bank Account",
+      "toAccount": "Kavodax Wallet",
+      "status": "failed",
+      "description": "Convert CAD to XLM for payment",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "originalAmount": 1000
+      },
+      "id": "TXN-MC9EFPXW-5549001B",
+      "timestamp": "2025-06-23T17:57:21.813Z"
+    },
+    "TXN-MC9EFPY4-1A396251": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "transfer",
+      "amount": 1000,
+      "currency": "CAD",
+      "fromAccount": "Kavodax Wallet",
+      "toAccount": "Stellar Network",
+      "status": "failed",
+      "description": "Transfer XLM via Stellar Network to GB2JEP3B...",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "onRampTransactionId": "TXN-MC9EFPXW-5549001B",
+        "originalAmount": 1000
+      },
+      "id": "TXN-MC9EFPY4-1A396251",
+      "timestamp": "2025-06-23T17:57:21.820Z"
+    },
+    "TXN-MC9EFPYA-2C32035D": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "off-ramp",
+      "amount": 1000,
+      "currency": "CAD",
+      "fromAccount": "Stellar Network",
+      "toAccount": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+      "status": "failed",
+      "description": "Convert XLM to CAD for recipient",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "onRampTransactionId": "TXN-MC9EFPXW-5549001B",
+        "transferTransactionId": "TXN-MC9EFPY4-1A396251",
+        "originalAmount": 1000
+      },
+      "id": "TXN-MC9EFPYA-2C32035D",
+      "timestamp": "2025-06-23T17:57:21.826Z"
+    },
+    "TXN-MC9F4LMG-656358A7": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "on-ramp",
+      "amount": 1000,
+      "currency": "CAD",
+      "fromAccount": "Bank Account",
+      "toAccount": "Kavodax Wallet",
+      "status": "completed",
+      "description": "Convert CAD to XLM for payment",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "originalAmount": 1000
+      },
+      "id": "TXN-MC9F4LMG-656358A7",
+      "timestamp": "2025-06-23T18:16:42.617Z",
+      "stellarTransactionHash": "347c8686150d7f9d37ff70de8c06a00324e357e824501c94dc1cf6e930c4adb0"
+    },
+    "TXN-MC9F4LMP-44AC3DA2": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "transfer",
+      "amount": 1000,
+      "currency": "CAD",
+      "fromAccount": "Kavodax Wallet",
+      "toAccount": "Stellar Network",
+      "status": "completed",
+      "description": "Transfer XLM via Stellar Network to GB2JEP3B...",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "onRampTransactionId": "TXN-MC9F4LMG-656358A7",
+        "originalAmount": 1000
+      },
+      "id": "TXN-MC9F4LMP-44AC3DA2",
+      "timestamp": "2025-06-23T18:16:42.625Z",
+      "stellarTransactionHash": "347c8686150d7f9d37ff70de8c06a00324e357e824501c94dc1cf6e930c4adb0"
+    },
+    "TXN-MC9F4LMV-40D53619": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "off-ramp",
+      "amount": 1000,
+      "currency": "CAD",
+      "fromAccount": "Stellar Network",
+      "toAccount": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+      "status": "completed",
+      "description": "Convert XLM to CAD for recipient",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "onRampTransactionId": "TXN-MC9F4LMG-656358A7",
+        "transferTransactionId": "TXN-MC9F4LMP-44AC3DA2",
+        "originalAmount": 1000
+      },
+      "id": "TXN-MC9F4LMV-40D53619",
+      "timestamp": "2025-06-23T18:16:42.631Z",
+      "stellarTransactionHash": "347c8686150d7f9d37ff70de8c06a00324e357e824501c94dc1cf6e930c4adb0",
+      "balance": -1978
+    },
+    "TXN-MC9FG30A-651D1A32": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "on-ramp",
+      "amount": 5,
+      "currency": "CAD",
+      "fromAccount": "Bank Account",
+      "toAccount": "Kavodax Wallet",
+      "status": "completed",
+      "description": "Convert CAD to XLM for payment",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "originalAmount": 5
+      },
+      "id": "TXN-MC9FG30A-651D1A32",
+      "timestamp": "2025-06-23T18:25:38.363Z",
+      "stellarTransactionHash": "880fb3a007163ea4cd7da69e0b201f38c8ed0fe8c647f178cf83625cc7cded82"
+    },
+    "TXN-MC9FG30J-6B903F66": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "transfer",
+      "amount": 5,
+      "currency": "CAD",
+      "fromAccount": "Kavodax Wallet",
+      "toAccount": "Stellar Network",
+      "status": "completed",
+      "description": "Transfer XLM via Stellar Network to GB2JEP3B...",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "onRampTransactionId": "TXN-MC9FG30A-651D1A32",
+        "originalAmount": 5
+      },
+      "id": "TXN-MC9FG30J-6B903F66",
+      "timestamp": "2025-06-23T18:25:38.371Z",
+      "stellarTransactionHash": "880fb3a007163ea4cd7da69e0b201f38c8ed0fe8c647f178cf83625cc7cded82"
+    },
+    "TXN-MC9FG30R-EABD1A8F": {
+      "userId": "jimmyyan7@gmail.com",
+      "userEmail": "jimmyyan7@gmail.com",
+      "type": "off-ramp",
+      "amount": 5,
+      "currency": "CAD",
+      "fromAccount": "Stellar Network",
+      "toAccount": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+      "status": "completed",
+      "description": "Convert XLM to CAD for recipient",
+      "metadata": {
+        "userPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "destinationPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "onRampTransactionId": "TXN-MC9FG30A-651D1A32",
+        "transferTransactionId": "TXN-MC9FG30J-6B903F66",
+        "originalAmount": 5
+      },
+      "id": "TXN-MC9FG30R-EABD1A8F",
+      "timestamp": "2025-06-23T18:25:38.379Z",
+      "stellarTransactionHash": "880fb3a007163ea4cd7da69e0b201f38c8ed0fe8c647f178cf83625cc7cded82",
+      "balance": -1983
+    },
+    "TXN-MC9GHT24-ECAD1733": {
+      "userId": "jason@gmail.com",
+      "userEmail": "jason@gmail.com",
+      "type": "on-ramp",
+      "amount": 1000,
+      "currency": "CAD",
+      "fromAccount": "Bank Account",
+      "toAccount": "Kavodax Wallet",
+      "status": "completed",
+      "description": "Convert CAD to XLM for payment",
+      "metadata": {
+        "userPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "destinationPublicKey": "GBX6TO7FLAN2ENHKDCLBQZ7VWWZVLWCGRF6ZDM3WOIF76ZLU2OHAMV67",
+        "originalAmount": 1000,
+        "fee": 10,
+        "recipientAmount": 990
+      },
+      "id": "TXN-MC9GHT24-ECAD1733",
+      "timestamp": "2025-06-23T18:54:58.396Z",
+      "stellarTransactionHash": "3055827f826d199a2808f16ac7ead8208843de3f88ead259186686d176b540bd"
+    },
+    "TXN-MC9GHT2E-64F3808E": {
+      "userId": "jason@gmail.com",
+      "userEmail": "jason@gmail.com",
+      "type": "transfer",
+      "amount": 1000,
+      "currency": "CAD",
+      "fromAccount": "Kavodax Wallet",
+      "toAccount": "Stellar Network",
+      "status": "completed",
+      "description": "Transfer XLM via Stellar Network to GBX6TO7F...",
+      "metadata": {
+        "userPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "destinationPublicKey": "GBX6TO7FLAN2ENHKDCLBQZ7VWWZVLWCGRF6ZDM3WOIF76ZLU2OHAMV67",
+        "onRampTransactionId": "TXN-MC9GHT24-ECAD1733",
+        "originalAmount": 1000,
+        "fee": 10,
+        "recipientAmount": 990
+      },
+      "id": "TXN-MC9GHT2E-64F3808E",
+      "timestamp": "2025-06-23T18:54:58.406Z",
+      "stellarTransactionHash": "3055827f826d199a2808f16ac7ead8208843de3f88ead259186686d176b540bd"
+    },
+    "TXN-MC9GHT4U-26584B37": {
+      "userId": "jason@gmail.com",
+      "userEmail": "jason@gmail.com",
+      "type": "off-ramp",
+      "amount": 990,
+      "currency": "CAD",
+      "fromAccount": "Stellar Network",
+      "toAccount": "GBX6TO7FLAN2ENHKDCLBQZ7VWWZVLWCGRF6ZDM3WOIF76ZLU2OHAMV67",
+      "status": "completed",
+      "description": "Convert XLM to CAD for recipient (after 1% fee)",
+      "metadata": {
+        "userPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "destinationPublicKey": "GBX6TO7FLAN2ENHKDCLBQZ7VWWZVLWCGRF6ZDM3WOIF76ZLU2OHAMV67",
+        "onRampTransactionId": "TXN-MC9GHT24-ECAD1733",
+        "transferTransactionId": "TXN-MC9GHT2E-64F3808E",
+        "originalAmount": 1000,
+        "fee": 10,
+        "recipientAmount": 990
+      },
+      "id": "TXN-MC9GHT4U-26584B37",
+      "timestamp": "2025-06-23T18:54:58.494Z",
+      "stellarTransactionHash": "3055827f826d199a2808f16ac7ead8208843de3f88ead259186686d176b540bd",
+      "balance": -1000
+    },
+    "TXN-MC9GI7MQ-C5239F1C": {
+      "userId": "jason@gmail.com",
+      "userEmail": "jason@gmail.com",
+      "type": "on-ramp",
+      "amount": 90.91,
+      "currency": "CAD",
+      "fromAccount": "Bank Account",
+      "toAccount": "Kavodax Wallet",
+      "status": "completed",
+      "description": "Convert CAD to XLM for payment",
+      "metadata": {
+        "userPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "destinationPublicKey": "GBX6TO7FLAN2ENHKDCLBQZ7VWWZVLWCGRF6ZDM3WOIF76ZLU2OHAMV67",
+        "originalAmount": 90.91,
+        "fee": 0.9091,
+        "recipientAmount": 90.0009
+      },
+      "id": "TXN-MC9GI7MQ-C5239F1C",
+      "timestamp": "2025-06-23T18:55:17.282Z",
+      "stellarTransactionHash": "dcf2c4d9ea032a3919535e98fca9224fbe8e93d878b50e7ff1bb5b0fdbfcef60"
+    },
+    "TXN-MC9GI7NE-910A7FA4": {
+      "userId": "jason@gmail.com",
+      "userEmail": "jason@gmail.com",
+      "type": "transfer",
+      "amount": 90.91,
+      "currency": "CAD",
+      "fromAccount": "Kavodax Wallet",
+      "toAccount": "Stellar Network",
+      "status": "completed",
+      "description": "Transfer XLM via Stellar Network to GBX6TO7F...",
+      "metadata": {
+        "userPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "destinationPublicKey": "GBX6TO7FLAN2ENHKDCLBQZ7VWWZVLWCGRF6ZDM3WOIF76ZLU2OHAMV67",
+        "onRampTransactionId": "TXN-MC9GI7MQ-C5239F1C",
+        "originalAmount": 90.91,
+        "fee": 0.9091,
+        "recipientAmount": 90.0009
+      },
+      "id": "TXN-MC9GI7NE-910A7FA4",
+      "timestamp": "2025-06-23T18:55:17.306Z",
+      "stellarTransactionHash": "dcf2c4d9ea032a3919535e98fca9224fbe8e93d878b50e7ff1bb5b0fdbfcef60"
+    },
+    "TXN-MC9GI7NM-F9A994E5": {
+      "userId": "jason@gmail.com",
+      "userEmail": "jason@gmail.com",
+      "type": "off-ramp",
+      "amount": 90.0009,
+      "currency": "CAD",
+      "fromAccount": "Stellar Network",
+      "toAccount": "GBX6TO7FLAN2ENHKDCLBQZ7VWWZVLWCGRF6ZDM3WOIF76ZLU2OHAMV67",
+      "status": "completed",
+      "description": "Convert XLM to CAD for recipient (after 1% fee)",
+      "metadata": {
+        "userPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "destinationPublicKey": "GBX6TO7FLAN2ENHKDCLBQZ7VWWZVLWCGRF6ZDM3WOIF76ZLU2OHAMV67",
+        "onRampTransactionId": "TXN-MC9GI7MQ-C5239F1C",
+        "transferTransactionId": "TXN-MC9GI7NE-910A7FA4",
+        "originalAmount": 90.91,
+        "fee": 0.9091,
+        "recipientAmount": 90.0009
+      },
+      "id": "TXN-MC9GI7NM-F9A994E5",
+      "timestamp": "2025-06-23T18:55:17.314Z",
+      "stellarTransactionHash": "dcf2c4d9ea032a3919535e98fca9224fbe8e93d878b50e7ff1bb5b0fdbfcef60",
+      "balance": -1090.91
+    },
+    "TXN-MC9GK6R1-4ECEF871": {
+      "userId": "jason@gmail.com",
+      "userEmail": "jason@gmail.com",
+      "type": "on-ramp",
+      "amount": 1010.1,
+      "currency": "CAD",
+      "fromAccount": "Bank Account",
+      "toAccount": "Kavodax Wallet",
+      "status": "completed",
+      "description": "Convert CAD to XLM for payment",
+      "metadata": {
+        "userPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "destinationPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "originalAmount": 1010.1,
+        "fee": 10.101,
+        "recipientAmount": 999.999
+      },
+      "id": "TXN-MC9GK6R1-4ECEF871",
+      "timestamp": "2025-06-23T18:56:49.454Z",
+      "stellarTransactionHash": "1d2f0de64bc3f2eafbade44836e0fa67a26e38f3b026e4ca3888c4b48dd1ea25"
+    },
+    "TXN-MC9GK6RA-CB592B02": {
+      "userId": "jason@gmail.com",
+      "userEmail": "jason@gmail.com",
+      "type": "transfer",
+      "amount": 1010.1,
+      "currency": "CAD",
+      "fromAccount": "Kavodax Wallet",
+      "toAccount": "Stellar Network",
+      "status": "completed",
+      "description": "Transfer XLM via Stellar Network to GDXQ7FSX...",
+      "metadata": {
+        "userPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "destinationPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "onRampTransactionId": "TXN-MC9GK6R1-4ECEF871",
+        "originalAmount": 1010.1,
+        "fee": 10.101,
+        "recipientAmount": 999.999
+      },
+      "id": "TXN-MC9GK6RA-CB592B02",
+      "timestamp": "2025-06-23T18:56:49.463Z",
+      "stellarTransactionHash": "1d2f0de64bc3f2eafbade44836e0fa67a26e38f3b026e4ca3888c4b48dd1ea25"
+    },
+    "TXN-MC9GK6RI-DF7840D7": {
+      "userId": "jason@gmail.com",
+      "userEmail": "jason@gmail.com",
+      "type": "off-ramp",
+      "amount": 999.999,
+      "currency": "CAD",
+      "fromAccount": "Stellar Network",
+      "toAccount": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+      "status": "completed",
+      "description": "Convert XLM to CAD for recipient (after 1% fee)",
+      "metadata": {
+        "userPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "destinationPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+        "onRampTransactionId": "TXN-MC9GK6R1-4ECEF871",
+        "transferTransactionId": "TXN-MC9GK6RA-CB592B02",
+        "originalAmount": 1010.1,
+        "fee": 10.101,
+        "recipientAmount": 999.999
+      },
+      "id": "TXN-MC9GK6RI-DF7840D7",
+      "timestamp": "2025-06-23T18:56:49.470Z",
+      "stellarTransactionHash": "1d2f0de64bc3f2eafbade44836e0fa67a26e38f3b026e4ca3888c4b48dd1ea25",
+      "balance": -2101.01
+    },
+    "TXN-MC9GRRWG-F55D85A2": {
+      "userId": "jason@gmail.com",
+      "userEmail": "jason@gmail.com",
+      "type": "on-ramp",
+      "amount": 1010,
+      "currency": "CAD",
+      "fromAccount": "Bank Account",
+      "toAccount": "Kavodax Wallet",
+      "status": "completed",
+      "description": "Convert CAD to XLM for payment",
+      "metadata": {
+        "userPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "destinationPublicKey": "GBX6TO7FLAN2ENHKDCLBQZ7VWWZVLWCGRF6ZDM3WOIF76ZLU2OHAMV67",
+        "originalAmount": 1010,
+        "fee": 10.1,
+        "recipientAmount": 999.9
+      },
+      "id": "TXN-MC9GRRWG-F55D85A2",
+      "timestamp": "2025-06-23T19:02:43.457Z",
+      "stellarTransactionHash": "8cb0e1542dcac2d84a6ccbf72cd7649d7987b2f9c96d0aee24f1c3442e80214b"
+    },
+    "TXN-MC9GRRWO-6DC6A839": {
+      "userId": "jason@gmail.com",
+      "userEmail": "jason@gmail.com",
+      "type": "transfer",
+      "amount": 1010,
+      "currency": "CAD",
+      "fromAccount": "Kavodax Wallet",
+      "toAccount": "Stellar Network",
+      "status": "completed",
+      "description": "Transfer XLM via Stellar Network to GBX6TO7F...",
+      "metadata": {
+        "userPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "destinationPublicKey": "GBX6TO7FLAN2ENHKDCLBQZ7VWWZVLWCGRF6ZDM3WOIF76ZLU2OHAMV67",
+        "onRampTransactionId": "TXN-MC9GRRWG-F55D85A2",
+        "originalAmount": 1010,
+        "fee": 10.1,
+        "recipientAmount": 999.9
+      },
+      "id": "TXN-MC9GRRWO-6DC6A839",
+      "timestamp": "2025-06-23T19:02:43.464Z",
+      "stellarTransactionHash": "8cb0e1542dcac2d84a6ccbf72cd7649d7987b2f9c96d0aee24f1c3442e80214b"
+    },
+    "TXN-MC9GRRWV-474C5904": {
+      "userId": "jason@gmail.com",
+      "userEmail": "jason@gmail.com",
+      "type": "off-ramp",
+      "amount": 999.9,
+      "currency": "CAD",
+      "fromAccount": "Stellar Network",
+      "toAccount": "GBX6TO7FLAN2ENHKDCLBQZ7VWWZVLWCGRF6ZDM3WOIF76ZLU2OHAMV67",
+      "status": "completed",
+      "description": "Convert XLM to CAD for recipient (after 1% fee)",
+      "metadata": {
+        "userPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "destinationPublicKey": "GBX6TO7FLAN2ENHKDCLBQZ7VWWZVLWCGRF6ZDM3WOIF76ZLU2OHAMV67",
+        "onRampTransactionId": "TXN-MC9GRRWG-F55D85A2",
+        "transferTransactionId": "TXN-MC9GRRWO-6DC6A839",
+        "originalAmount": 1010,
+        "fee": 10.1,
+        "recipientAmount": 999.9
+      },
+      "id": "TXN-MC9GRRWV-474C5904",
+      "timestamp": "2025-06-23T19:02:43.471Z",
+      "stellarTransactionHash": "8cb0e1542dcac2d84a6ccbf72cd7649d7987b2f9c96d0aee24f1c3442e80214b",
+      "balance": -3111.01
+    },
+    "TXN-MC9HYETH-71E07741": {
+      "userId": "jason@gmail.com",
+      "userEmail": "jason@gmail.com",
+      "type": "transfer",
+      "amount": 1000,
+      "currency": "CAD",
+      "fromAccount": "Kavodax Wallet",
+      "toAccount": "GBX6TO7FLAN2ENHKDCLBQZ7VWWZVLWCGRF6ZDM3WOIF76ZLU2OHAMV67",
+      "status": "completed",
+      "description": "Transfer to GBX6TO7F...",
+      "metadata": {
+        "userPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "destinationPublicKey": "GBX6TO7FLAN2ENHKDCLBQZ7VWWZVLWCGRF6ZDM3WOIF76ZLU2OHAMV67",
+        "originalAmount": 1000,
+        "fee": 10,
+        "recipientAmount": 990,
+        "transactionSteps": [
+          {
+            "step": "on-ramp",
+            "description": "Convert CAD to XLM for payment",
+            "fromAccount": "Bank Account",
+            "toAccount": "Kavodax Wallet"
+          },
+          {
+            "step": "transfer",
+            "description": "Transfer XLM via Stellar Network to GBX6TO7F...",
+            "fromAccount": "Kavodax Wallet",
+            "toAccount": "Stellar Network"
+          },
+          {
+            "step": "off-ramp",
+            "description": "Convert XLM to CAD for recipient (after 1% fee)",
+            "fromAccount": "Stellar Network",
+            "toAccount": "GBX6TO7FLAN2ENHKDCLBQZ7VWWZVLWCGRF6ZDM3WOIF76ZLU2OHAMV67"
+          }
+        ]
+      },
+      "id": "TXN-MC9HYETH-71E07741",
+      "timestamp": "2025-06-23T19:35:52.709Z",
+      "stellarTransactionHash": "4a4ee2c16f62088ab44948a97d0fae6132f1661ae854433565cf88fd016025f0",
+      "balance": -4111.01
+    },
+    "TXN-MC9HZ8RQ-72F25996": {
+      "userId": "jason@gmail.com",
+      "userEmail": "jason@gmail.com",
+      "type": "deposit",
+      "amount": 10000,
+      "currency": "CAD",
+      "fromAccount": "Pioneer Bank - 1618576",
+      "toAccount": "Kavodax Wallet",
+      "status": "failed",
+      "description": "Load money from Pioneer Bank",
+      "metadata": {
+        "bankAccountId": "pioneer-3d29f6eb-8c0e-41e8-a4ec-cdfbc7a180f3",
+        "bankAccountDetails": {
+          "id": "pioneer-3d29f6eb-8c0e-41e8-a4ec-cdfbc7a180f3",
+          "bankId": "pioneer-bank",
+          "bankName": "Pioneer Bank",
+          "bankCode": "PION",
+          "accountNumber": "1618576",
+          "transitNumber": "12345",
+          "isPrimary": true,
+          "isPioneerBank": true,
+          "stellarPublicKey": "GBXEBL3UGLTA3WPHEYQUAIUAOTXEYBALUFJO4G5JTGTY7G4PQOMA2XZP"
+        },
+        "userPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "sourceStellarAccount": "GBXEBL3UGLTA3WPHEYQUAIUAOTXEYBALUFJO4G5JTGTY7G4PQOMA2XZP",
+        "originalAmount": 10000
+      },
+      "id": "TXN-MC9HZ8RQ-72F25996",
+      "timestamp": "2025-06-23T19:36:31.526Z"
+    },
+    "TXN-MC9HZGLW-B7B4F3D7": {
+      "userId": "jason@gmail.com",
+      "userEmail": "jason@gmail.com",
+      "type": "deposit",
+      "amount": 1000,
+      "currency": "CAD",
+      "fromAccount": "Pioneer Bank - 1618576",
+      "toAccount": "Kavodax Wallet",
+      "status": "completed",
+      "description": "Load money from Pioneer Bank",
+      "metadata": {
+        "bankAccountId": "pioneer-3d29f6eb-8c0e-41e8-a4ec-cdfbc7a180f3",
+        "bankAccountDetails": {
+          "id": "pioneer-3d29f6eb-8c0e-41e8-a4ec-cdfbc7a180f3",
+          "bankId": "pioneer-bank",
+          "bankName": "Pioneer Bank",
+          "bankCode": "PION",
+          "accountNumber": "1618576",
+          "transitNumber": "12345",
+          "isPrimary": true,
+          "isPioneerBank": true,
+          "stellarPublicKey": "GBXEBL3UGLTA3WPHEYQUAIUAOTXEYBALUFJO4G5JTGTY7G4PQOMA2XZP"
+        },
+        "userPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "sourceStellarAccount": "GBXEBL3UGLTA3WPHEYQUAIUAOTXEYBALUFJO4G5JTGTY7G4PQOMA2XZP",
+        "originalAmount": 1000
+      },
+      "id": "TXN-MC9HZGLW-B7B4F3D7",
+      "timestamp": "2025-06-23T19:36:41.684Z",
+      "stellarTransactionHash": "3c43234d211df71ecdbd7dbbf3daed7aef3a7ca38dcc9e7e89e19a4edb65faef",
+      "balance": 1000
+    },
+    "TXN-MC9HZUGQ-C027D0CF": {
+      "userId": "jason@gmail.com",
+      "userEmail": "jason@gmail.com",
+      "type": "withdrawal",
+      "amount": 2,
+      "currency": "CAD",
+      "fromAccount": "Kavodax Wallet",
+      "toAccount": "Pioneer Bank - 1618576",
+      "status": "completed",
+      "description": "Withdrawal to Pioneer Bank",
+      "metadata": {
+        "bankAccountId": "pioneer-3d29f6eb-8c0e-41e8-a4ec-cdfbc7a180f3",
+        "bankAccountDetails": {
+          "id": "pioneer-3d29f6eb-8c0e-41e8-a4ec-cdfbc7a180f3",
+          "bankId": "pioneer-bank",
+          "bankName": "Pioneer Bank",
+          "bankCode": "PION",
+          "accountNumber": "1618576",
+          "transitNumber": "12345",
+          "isPrimary": true,
+          "isPioneerBank": true,
+          "stellarPublicKey": "GBXEBL3UGLTA3WPHEYQUAIUAOTXEYBALUFJO4G5JTGTY7G4PQOMA2XZP"
+        },
+        "userPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "destinationStellarAccount": "GBXEBL3UGLTA3WPHEYQUAIUAOTXEYBALUFJO4G5JTGTY7G4PQOMA2XZP",
+        "originalAmount": 2
+      },
+      "id": "TXN-MC9HZUGQ-C027D0CF",
+      "timestamp": "2025-06-23T19:36:59.642Z",
+      "stellarTransactionHash": "657add4018d5f474106b855caf1a290d3ef64df6d0f65d5cd400ef50333c085b",
+      "balance": 993.7981612
+    },
+    "TXN-MC9I04ZD-58804CF7": {
+      "userId": "jason@gmail.com",
+      "userEmail": "jason@gmail.com",
+      "type": "transfer",
+      "amount": 1000,
+      "currency": "CAD",
+      "fromAccount": "Kavodax Wallet",
+      "toAccount": "GBX6TO7FLAN2ENHKDCLBQZ7VWWZVLWCGRF6ZDM3WOIF76ZLU2OHAMV67",
+      "status": "completed",
+      "description": "Transfer to GBX6TO7F...",
+      "metadata": {
+        "userPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "destinationPublicKey": "GBX6TO7FLAN2ENHKDCLBQZ7VWWZVLWCGRF6ZDM3WOIF76ZLU2OHAMV67",
+        "originalAmount": 1000,
+        "fee": 10,
+        "recipientAmount": 990,
+        "transactionSteps": [
+          {
+            "step": "on-ramp",
+            "description": "Convert CAD to XLM for payment",
+            "fromAccount": "Bank Account",
+            "toAccount": "Kavodax Wallet"
+          },
+          {
+            "step": "transfer",
+            "description": "Transfer XLM via Stellar Network to GBX6TO7F...",
+            "fromAccount": "Kavodax Wallet",
+            "toAccount": "Stellar Network"
+          },
+          {
+            "step": "off-ramp",
+            "description": "Convert XLM to CAD for recipient (after 1% fee)",
+            "fromAccount": "Stellar Network",
+            "toAccount": "GBX6TO7FLAN2ENHKDCLBQZ7VWWZVLWCGRF6ZDM3WOIF76ZLU2OHAMV67"
+          }
+        ]
+      },
+      "id": "TXN-MC9I04ZD-58804CF7",
+      "timestamp": "2025-06-23T19:37:13.273Z",
+      "stellarTransactionHash": "adf74e6f669248b4d908ff9108c26a7dd5a4e10ec52865e6e27ab06efaf58019",
+      "balance": -6.201838800000019
+    },
+    "TXN-MC9I11HJ-42C01F44": {
+      "userId": "jason@gmail.com",
+      "userEmail": "jason@gmail.com",
+      "type": "withdrawal",
+      "amount": 2,
+      "currency": "CAD",
+      "fromAccount": "Kavodax Wallet",
+      "toAccount": "Pioneer Bank - 1618576",
+      "status": "completed",
+      "description": "Withdrawal to Pioneer Bank",
+      "metadata": {
+        "bankAccountId": "pioneer-3d29f6eb-8c0e-41e8-a4ec-cdfbc7a180f3",
+        "bankAccountDetails": {
+          "id": "pioneer-3d29f6eb-8c0e-41e8-a4ec-cdfbc7a180f3",
+          "bankId": "pioneer-bank",
+          "bankName": "Pioneer Bank",
+          "bankCode": "PION",
+          "accountNumber": "1618576",
+          "transitNumber": "12345",
+          "isPrimary": true,
+          "isPioneerBank": true,
+          "stellarPublicKey": "GBXEBL3UGLTA3WPHEYQUAIUAOTXEYBALUFJO4G5JTGTY7G4PQOMA2XZP"
+        },
+        "userPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "destinationStellarAccount": "GBXEBL3UGLTA3WPHEYQUAIUAOTXEYBALUFJO4G5JTGTY7G4PQOMA2XZP",
+        "originalAmount": 2
+      },
+      "id": "TXN-MC9I11HJ-42C01F44",
+      "timestamp": "2025-06-23T19:37:55.399Z",
+      "stellarTransactionHash": "13ed25ccdedbe3086406a89d31ae711b9e64eea4dfdc71c96648324bbfba915f",
+      "balance": -12.400160300000017
+    },
+    "TXN-MC9I1SKD-66594C8F": {
+      "userId": "jason@gmail.com",
+      "userEmail": "jason@gmail.com",
+      "type": "transfer",
+      "amount": 1000,
+      "currency": "CAD",
+      "fromAccount": "Kavodax Wallet",
+      "toAccount": "GBX6TO7FLAN2ENHKDCLBQZ7VWWZVLWCGRF6ZDM3WOIF76ZLU2OHAMV67",
+      "status": "completed",
+      "description": "Transfer to GBX6TO7F...",
+      "metadata": {
+        "userPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+        "destinationPublicKey": "GBX6TO7FLAN2ENHKDCLBQZ7VWWZVLWCGRF6ZDM3WOIF76ZLU2OHAMV67",
+        "originalAmount": 1000,
+        "fee": 10,
+        "recipientAmount": 990,
+        "transactionSteps": [
+          {
+            "step": "on-ramp",
+            "description": "Convert CAD to XLM for payment",
+            "fromAccount": "Bank Account",
+            "toAccount": "Kavodax Wallet"
+          },
+          {
+            "step": "transfer",
+            "description": "Transfer XLM via Stellar Network to GBX6TO7F...",
+            "fromAccount": "Kavodax Wallet",
+            "toAccount": "Stellar Network"
+          },
+          {
+            "step": "off-ramp",
+            "description": "Convert XLM to CAD for recipient (after 1% fee)",
+            "fromAccount": "Stellar Network",
+            "toAccount": "GBX6TO7FLAN2ENHKDCLBQZ7VWWZVLWCGRF6ZDM3WOIF76ZLU2OHAMV67"
+          }
+        ]
+      },
+      "id": "TXN-MC9I1SKD-66594C8F",
+      "timestamp": "2025-06-23T19:38:30.493Z",
+      "stellarTransactionHash": "dde52c8ec1d85dc27fe67ec561fd4c0f22752f6d26c2247db614875ac3083415",
+      "balance": -1012.4001603
+    }
+  }
+}

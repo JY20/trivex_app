@@ -1,0 +1,92 @@
+{
+  "jimmyyan1337@gmail.com": {
+    "password": "$2b$10$VV03OV2sEqv50j2/mm9K9.9RLlTkeHoevguqu6ssW/cWOisPcMb1S",
+    "stellarPublicKey": "GBX6TO7FLAN2ENHKDCLBQZ7VWWZVLWCGRF6ZDM3WOIF76ZLU2OHAMV67",
+    "stellarSecretKey": "SASH3MP5R7PCESASOZWTXQSDZBZ4Y5DZC3ZKO74EBFJHZSPMA6UWSBQS",
+    "pioneerBankPublicKey": "GACM46DYSK3BXPCNTTBWYRGXMCLTUW56QVLPDOMSQJGHNTLIXL725OHK",
+    "pioneerBankSecretKey": "SCF5MXLQHSIJL3V27Q6H46DG7KSO5WFISE4O537GDTOLXUEFEEKWOP3J",
+    "firstName": "Jimmy",
+    "lastName": "Yan",
+    "bankAccounts": [
+      {
+        "id": "pioneer-c686ac8f-3821-4cb3-b6da-15dc26211b7e",
+        "bankId": "pioneer-bank",
+        "bankName": "Pioneer Bank",
+        "bankCode": "PION",
+        "accountNumber": "1571317",
+        "transitNumber": "12345",
+        "isPrimary": true,
+        "isPioneerBank": true,
+        "stellarPublicKey": "GACM46DYSK3BXPCNTTBWYRGXMCLTUW56QVLPDOMSQJGHNTLIXL725OHK"
+      }
+    ]
+  },
+  "jason@gmail.com": {
+    "password": "$2b$10$y/tuzwfqC6RTZHMy1/zDfuc0C71bXDTbB7iuSd/U4OseUYwg56vLm",
+    "stellarPublicKey": "GB2JEP3B6ZASOWWOIOL7O7K6NL6IPYJLGTXI6BLGUUX25JY3K3P5YO37",
+    "stellarSecretKey": "SCAS7XUG5NMG4BWQ6V5MLP4GOFKMJYDGK5BJFTUS7EDRIQNDIVKLFVIE",
+    "pioneerBankPublicKey": "GBXEBL3UGLTA3WPHEYQUAIUAOTXEYBALUFJO4G5JTGTY7G4PQOMA2XZP",
+    "pioneerBankSecretKey": "SBR2HRXS32L4O3JECPBF3FYKZ5B4G3XEKNXHBJIOKHZO7GXQEOML2SH2",
+    "firstName": "jason",
+    "lastName": "Yan",
+    "bankAccounts": [
+      {
+        "id": "pioneer-3d29f6eb-8c0e-41e8-a4ec-cdfbc7a180f3",
+        "bankId": "pioneer-bank",
+        "bankName": "Pioneer Bank",
+        "bankCode": "PION",
+        "accountNumber": "1618576",
+        "transitNumber": "12345",
+        "isPrimary": true,
+        "isPioneerBank": true,
+        "stellarPublicKey": "GBXEBL3UGLTA3WPHEYQUAIUAOTXEYBALUFJO4G5JTGTY7G4PQOMA2XZP"
+      }
+    ]
+  },
+  "temp@gmail.com": {
+    "password": "$2b$10$5QQ5vaQoNMKiVT2ZMPKUwO94DuAdDip//URLYCtPw3Hp0DzhRc1eK",
+    "stellarPublicKey": "GCZSRC4LHWRZGXGD5IEA253UAL4U5DBY3DL6WIMDJUA5FGIMVW2Y44IA",
+    "stellarSecretKey": "SDORGVJVRXBIEISMFM4AKACIIFNXVW7WEST3ZYXIPLWO5D3O4O74TKU7",
+    "pioneerBankPublicKey": "GB275FS7QAGCTOJGVEY7HD3SHRHZW5Z57ZMV2YGJAYDVKKEKY6ARCB4S",
+    "pioneerBankSecretKey": "SCXQLWFVN64NNHIOO6OVFJH6BBBU5IWZNOZ2TY5UCB2COYUBPKTSJEZX",
+    "firstName": "temo",
+    "lastName": "Yan",
+    "preferredCurrency": "CAD",
+    "bankAccounts": [
+      {
+        "id": "pioneer-fd7da99f-d1a0-4787-bb4b-cb88e2fd5e83",
+        "bankId": "pioneer-bank",
+        "bankName": "Pioneer Bank",
+        "bankCode": "PION",
+        "accountNumber": "1219022",
+        "transitNumber": "12345",
+        "isPrimary": true,
+        "isPioneerBank": true,
+        "stellarPublicKey": "GB275FS7QAGCTOJGVEY7HD3SHRHZW5Z57ZMV2YGJAYDVKKEKY6ARCB4S"
+      }
+    ]
+  },
+  "jimmyyan7@gmail.com": {
+    "password": "$2b$10$gxIkXaGzD.Szz6QqmaqIyewBsTNZfm2RBIHXaVm6sGJ0snKZc4m3O",
+    "stellarPublicKey": "GDXQ7FSX7REBIOKOUZ3CHXGVD3OVVF3JDZA7DFFDBBUPV4WUNFWXINGG",
+    "stellarSecretKey": "SAFEIYNSE2CAHQOAJDKLKA4EP7D5NLYTYVFYL3YYNLREBSK6ZZP6KUNI",
+    "pioneerBankPublicKey": "GALLCHIS2QWIHS2UVP53C7TD6WFQMOC276XSPNBYRM5JGISDKLOCIWBU",
+    "pioneerBankSecretKey": "SDSHGXGXINJCPSAI32PDRBZNJ6LZCO4WR54DXFVSAT3ZAITUPZC2GJA3",
+    "firstName": "Bob",
+    "lastName": "Yan",
+    "preferredCurrency": "CAD",
+    "bankAccounts": [
+      {
+        "id": "pioneer-205fcd84-bb31-48ad-a893-cd214aefc801",
+        "bankId": "pioneer-bank",
+        "bankName": "Pioneer Bank",
+        "bankCode": "PION",
+        "accountNumber": "1920827",
+        "transitNumber": "12345",
+        "isPrimary": true,
+        "isPioneerBank": true,
+        "stellarPublicKey": "GALLCHIS2QWIHS2UVP53C7TD6WFQMOC276XSPNBYRM5JGISDKLOCIWBU"
+      }
+    ]
+  }
+}
