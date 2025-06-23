@@ -1,19 +1,12 @@
 'use client';
 
-import { useState, useEffect, Suspense } from 'react';
+import { useState, useEffect } from 'react';
 import { useAuth } from '@/context/AuthContext';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Sidebar from '@/components/Sidebar';
 import TransactionDetailsModal from '@/components/TransactionDetailsModal';
 import { Transaction, TransactionStats } from '@/types/transaction';
 import Image from 'next/image';
-
-// Add viewport export to fix metadata warning
-export const viewport = {
-  width: 'device-width',
-  initialScale: 1,
-  maximumScale: 1,
-};
 
 interface TransactionWithMetadata extends Transaction {
   userId: string;
@@ -42,8 +35,7 @@ interface GroupedTransaction {
   stellarTransactionHash?: string;
 }
 
-// Create a component that uses searchParams
-function HistoryPageContent() {
+export default function HistoryPage() {
   const { user, isLoading } = useAuth();
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -492,14 +484,5 @@ function HistoryPageContent() {
         </div>
       </main>
     </div>
-  );
-}
-
-// Main component with Suspense boundary
-export default function HistoryPage() {
-  return (
-    <Suspense fallback={<div className="flex min-h-screen flex-col items-center justify-center bg-gray-50">Loading...</div>}>
-      <HistoryPageContent />
-    </Suspense>
   );
 } 
