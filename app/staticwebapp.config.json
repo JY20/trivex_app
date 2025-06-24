@@ -1,12 +1,20 @@
 {
   "navigationFallback": {
-    "rewrite": "/index.html",
-    "exclude": ["/api/*", "/static/*", "/_next/*"]
+    "rewrite": "index.html"
   },
   "routes": [
     {
       "route": "/api/*",
       "allowedRoles": ["anonymous"]
     }
-  ]
+  ],
+  "platformErrorOverrides": [
+    {
+      "errorType": "NotFound",
+      "serve": "/index.html"
+    }
+  ],
+  "mimeTypes": {
+    ".json": "text/json"
+  }
 }

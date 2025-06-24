@@ -25,11 +25,11 @@ const TestimonialsSection: React.FC = () => {
             <div className="image-placeholder customer-1" style={{ backgroundImage: `url(${t1Image})` }}></div>
           </div>
           
-          {/* Center video testimonial - YouTube embed */}
+          {/* Center video testimonial - Google Drive embed */}
           <div className="testimonial-video">
             <div className="youtube-embed">
               <iframe 
-                src={`https://www.youtube.com/embed/dQw4w9WgXcQ${isVideoPlaying ? '?autoplay=1' : ''}`}
+                src={`https://drive.google.com/file/d/1JdMAzIrJhtMh9TkoKkiq_t27v0kXVp0q/preview${isVideoPlaying ? '?autoplay=1' : ''}`}
                 title="See Kavodax in Action"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

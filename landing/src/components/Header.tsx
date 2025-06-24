@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import './Header.css';
 import logo from '../assets/logo_blue.png';
+import { usePopup } from '../context/PopupContext';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { openWaitlistPopup } = usePopup();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -30,7 +32,7 @@ const Header: React.FC = () => {
           {/* Navigation buttons - desktop and mobile */}
           <div className={`nav-buttons ${isMenuOpen ? 'show' : ''}`}>
             <a href="https://kavodax.gitbook.io/kavodax-docs/" target="_blank" rel="noopener noreferrer" className="btn">Docs</a>
-            <a href="https://app.kavodax.com" className="btn btn-primary">Get Started</a>
+            <button onClick={openWaitlistPopup} className="btn btn-primary">Get Started</button>
           </div>
         </div>
       </div>

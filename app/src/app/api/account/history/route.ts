@@ -1,20 +1,20 @@
 import { NextResponse } from 'next/server';
-import { Horizon } from 'stellar-sdk';
 
-export async function GET(request: Request) {
-  const { searchParams } = new URL(request.url);
-  const publicKey = searchParams.get('publicKey');
+export const dynamic = "force-static";
+export const revalidate = false;
 
-  if (!publicKey) {
-    return NextResponse.json({ error: 'publicKey is required' }, { status: 400 });
-  }
-
-  try {
-    const horizon = new Horizon.Server('https://horizon-testnet.stellar.org');
-    const payments = await horizon.payments().forAccount(publicKey).call();
-    return NextResponse.json(payments);
-  } catch (error) {
-    console.error(error);
-    return NextResponse.json({ error: 'Failed to get payment history' }, { status: 500 });
-  }
+// For static export, we'll return a placeholder response
+// The actual payment history will need to be implemented client-side or via a serverless function
+export async function GET() {
+  return NextResponse.json({
+    _embedded: {
+      records: []
+    },
+    _links: {
+      self: {
+        href: ""
+      }
+    },
+    message: 'Static export: Payment history requires server-side implementation'
+  });
 } 

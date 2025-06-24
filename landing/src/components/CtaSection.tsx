@@ -1,8 +1,11 @@
 import React from 'react';
 import './CtaSection.css';
 import k1Image from '../assets/k1.jpg';
+import { usePopup } from '../context/PopupContext';
 
 const CtaSection: React.FC = () => {
+  const { openWaitlistPopup } = usePopup();
+  
   return (
     <section className="cta-section">
       <div className="container">
@@ -12,7 +15,7 @@ const CtaSection: React.FC = () => {
               <h2>Transform Your Cross-Border Payments</h2>
               <p>Join thousands of Canadian businesses saving time and money with our blockchain-powered platform. Experience faster transfers with lower fees.</p>
               <div className="cta-contact">
-                <a href="https://app.kavodax.com" className="btn btn-primary">Get Started Now <span className="arrow-icon">→</span></a>
+                <button onClick={openWaitlistPopup} className="btn btn-primary">Get Started Now <span className="arrow-icon">→</span></button>
               </div>
             </div>
             <div className="cta-image">

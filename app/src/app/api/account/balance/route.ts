@@ -1,21 +1,18 @@
 import { NextResponse } from 'next/server';
-import { Horizon } from 'stellar-sdk';
 
-export async function GET(request: Request) {
-  const { searchParams } = new URL(request.url);
-  const publicKey = searchParams.get('publicKey');
+export const dynamic = "force-static";
+export const revalidate = false;
 
-  if (!publicKey) {
-    return NextResponse.json({ error: 'publicKey is required' }, { status: 400 });
-  }
-
-  try {
-    const horizon = new Horizon.Server('https://horizon-testnet.stellar.org');
-
-    const account = await horizon.loadAccount(publicKey);
-    return NextResponse.json({ balances: account.balances });
-  } catch (error) {
-    console.error(error);
-    return NextResponse.json({ error: 'Failed to get balance' }, { status: 500 });
-  }
+// For static export, we'll return a placeholder response
+// The actual balance check will need to be implemented client-side or via a serverless function
+export async function GET() {
+  return NextResponse.json({
+    balances: [
+      {
+        balance: "0.0000000",
+        asset_type: "native"
+      }
+    ],
+    message: 'Static export: Balance check requires server-side implementation'
+  });
 } 

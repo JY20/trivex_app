@@ -1,5 +1,8 @@
 import { NextResponse } from 'next/server';
 
+export const dynamic = "force-static";
+export const revalidate = false;
+
 // List of major Canadian banks
 const canadianBanks = [
   { id: 'rbc', name: 'Royal Bank of Canada (RBC)', code: 'RBC', logo: '🏦' },
@@ -39,22 +42,12 @@ const canadianBanks = [
   { id: 'yukon', name: 'Yukon Credit Union', code: 'YUKON', logo: '🏦' }
 ];
 
-export async function GET(request: Request) {
-  const { searchParams } = new URL(request.url);
-  const query = searchParams.get('q')?.toLowerCase() || '';
-
-  // Filter banks based on search query
-  const filteredBanks = canadianBanks.filter(bank => 
-    bank.name.toLowerCase().includes(query) || 
-    bank.code.toLowerCase().includes(query)
-  );
-
-  // Return top 10 results to avoid overwhelming the UI
-  const results = filteredBanks.slice(0, 10);
-
+export async function GET() {
+  // For static export, we'll just return all banks
+  // Client-side filtering will need to be implemented
   return NextResponse.json({
-    banks: results,
-    total: filteredBanks.length,
-    query: query
+    banks: canadianBanks.slice(0, 10),
+    total: canadianBanks.length,
+    query: ''
   });
 } 

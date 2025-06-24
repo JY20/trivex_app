@@ -1,3 +1,5 @@
+export const dynamic = "force-static";
+export const revalidate = false;
 import { NextResponse } from 'next/server';
 import { getIronSession, IronSession, IronSessionData } from 'iron-session';
 import { sessionOptions } from '@/lib/session';

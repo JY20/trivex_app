@@ -1,8 +1,11 @@
 import React from 'react';
 import './HeroSection.css';
 import heroSvg from '../images/global-payments-illustration.svg';
+import { usePopup } from '../context/PopupContext';
 
 const HeroSection: React.FC = () => {
+  const { openWaitlistPopup } = usePopup();
+  
   return (
     <section className="hero-section">
       <div className="container">
@@ -29,7 +32,7 @@ const HeroSection: React.FC = () => {
               </div>
             </div>
             <div className="hero-cta">
-              <a href="https://app.kavodax.com" className="btn btn-primary">Get Started</a>
+              <button onClick={openWaitlistPopup} className="btn btn-primary">Get Started</button>
               <a href="https://kavodax.gitbook.io/kavodax-docs/" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Learn More</a>
             </div>
           </div>

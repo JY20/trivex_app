@@ -46,9 +46,15 @@
 .btn {
   padding: 10px 20px;
   border-radius: 6px;
-  text-decoration: none;
   font-weight: 500;
+  text-decoration: none;
   transition: all 0.3s ease;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  display: inline-block;
+  text-align: center;
 }
 
 .header .btn {

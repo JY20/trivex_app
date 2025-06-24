@@ -1,8 +1,11 @@
 import React from 'react';
 import './HowItWorksSection.css';
 import currencyFlowDiagram from '../images/currency-flow-diagram.svg';
+import { usePopup } from '../context/PopupContext';
 
 const HowItWorksSection: React.FC = () => {
+  const { openWaitlistPopup } = usePopup();
+  
   return (
     <section className="how-it-works-section">
       <div className="container">
@@ -52,7 +55,7 @@ const HowItWorksSection: React.FC = () => {
             </div>
             
             <div className="cta-container">
-              <a href="https://app.kavodax.com" className="btn btn-primary">Start Sending Money</a>
+              <button onClick={openWaitlistPopup} className="btn btn-primary">Start Sending Money</button>
               <a href="https://kavodax.gitbook.io/kavodax-docs/#4.-how-it-works" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Learn More</a>
             </div>
           </div>

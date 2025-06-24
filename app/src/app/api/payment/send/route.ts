@@ -1,4 +1,7 @@
 import { NextResponse } from 'next/server';
+
+export const dynamic = "force-static";
+export const revalidate = false;
 import { Horizon, Keypair, TransactionBuilder, Asset, Operation } from 'stellar-sdk';
 import { getIronSession, IronSession, IronSessionData } from 'iron-session';
 import { sessionOptions } from '@/lib/session';
