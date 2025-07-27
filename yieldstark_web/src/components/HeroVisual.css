@@ -1,0 +1,308 @@
+.hero-visual {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  perspective: 1000px;
+}
+
+/* 3D WBTC Coin */
+.platform {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform-style: preserve-3d;
+  width: 200px;
+  height: 200px;
+}
+
+.wbtc-coin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%) rotateX(60deg) rotateZ(-45deg);
+  transform-style: preserve-3d;
+  width: 120px;
+  height: 120px;
+  animation: coin-float 4s ease-in-out infinite;
+}
+
+.wbtc-front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #F7931A;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  backface-visibility: hidden;
+  transform: translateZ(6px);
+  box-shadow: 0 0 30px rgba(247, 147, 26, 0.5);
+}
+
+.wbtc-side {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transform: rotateX(90deg);
+}
+
+.wbtc-side::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 12px;
+  background: #e58216;
+  border-radius: 6px;
+  transform: rotateX(0) translateY(-6px);
+}
+
+.wbtc-shine {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  top: 20%;
+  left: 20%;
+  filter: blur(5px);
+  transform: translateZ(7px);
+}
+
+.bitcoin-symbol {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.wbtc-label {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  margin-top: -5px;
+}
+
+.platform-shadow {
+  position: absolute;
+  width: 120px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, 0) rotateX(60deg);
+  filter: blur(10px);
+  animation: shadow-pulse 4s ease-in-out infinite;
+}
+
+/* Flow Lines */
+.flow-lines {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.flow-line {
+  position: absolute;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+  opacity: 0.7;
+  transform-origin: left center;
+}
+
+.flow-line-1 {
+  width: 40%;
+  top: 40%;
+  left: 30%;
+  transform: rotate(30deg);
+  animation: flow-pulse 3s ease-in-out infinite;
+}
+
+.flow-line-2 {
+  width: 35%;
+  top: 60%;
+  left: 30%;
+  transform: rotate(-20deg);
+  animation: flow-pulse 3s ease-in-out 0.5s infinite;
+}
+
+.flow-line-3 {
+  width: 30%;
+  top: 50%;
+  left: 35%;
+  transform: rotate(5deg);
+  animation: flow-pulse 3s ease-in-out 1s infinite;
+}
+
+/* Protocol Nodes */
+.protocol-nodes {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.protocol-node {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.vesu-node {
+  background: linear-gradient(135deg, #4CAF50, #2E7D32);
+  top: 30%;
+  right: 20%;
+  animation: node-pulse 4s ease-in-out infinite;
+}
+
+.ekubo-node {
+  background: linear-gradient(135deg, #2196F3, #0D47A1);
+  bottom: 30%;
+  right: 25%;
+  animation: node-pulse 4s ease-in-out 1s infinite;
+}
+
+.protocol-label {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Yield Particles */
+.yield-particles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.particle {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: #FFD700;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #FFD700;
+}
+
+@keyframes particle-move {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0) scale(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(var(--x), var(--y)) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(calc(var(--x) * 2), calc(var(--y) * 2)) scale(0.5);
+  }
+}
+
+/* Generate positions for particles */
+.particle-1 { --x: 120px; --y: -40px; top: 50%; left: 40%; animation: particle-move 4s infinite; }
+.particle-2 { --x: 100px; --y: -20px; top: 55%; left: 42%; animation: particle-move 4.5s infinite 0.2s; }
+.particle-3 { --x: 130px; --y: -30px; top: 45%; left: 38%; animation: particle-move 5s infinite 0.4s; }
+.particle-4 { --x: 110px; --y: -50px; top: 60%; left: 41%; animation: particle-move 4.2s infinite 0.6s; }
+.particle-5 { --x: 90px; --y: -40px; top: 48%; left: 43%; animation: particle-move 4.8s infinite 0.8s; }
+.particle-6 { --x: 120px; --y: -10px; top: 52%; left: 39%; animation: particle-move 5.2s infinite 1s; }
+.particle-7 { --x: 110px; --y: -30px; top: 47%; left: 44%; animation: particle-move 4.7s infinite 1.2s; }
+.particle-8 { --x: 100px; --y: -50px; top: 53%; left: 40%; animation: particle-move 4.3s infinite 1.4s; }
+.particle-9 { --x: 130px; --y: -20px; top: 49%; left: 41%; animation: particle-move 4.9s infinite 1.6s; }
+.particle-10 { --x: 90px; --y: -30px; top: 51%; left: 42%; animation: particle-move 5.1s infinite 1.8s; }
+.particle-11 { --x: 120px; --y: -40px; top: 46%; left: 43%; animation: particle-move 4.6s infinite 2s; }
+.particle-12 { --x: 110px; --y: -10px; top: 54%; left: 39%; animation: particle-move 5.3s infinite 2.2s; }
+
+/* Rebalancing Arrow */
+.rebalance-arrow {
+  position: absolute;
+  top: 50%;
+  right: 30%;
+  transform: translateY(-50%);
+  width: 80px;
+  height: 40px;
+}
+
+.arrow-body {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.7);
+  transform: translateY(-50%);
+}
+
+.arrow-head {
+  position: absolute;
+  top: 50%;
+  right: -10px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid rgba(255, 255, 255, 0.7);
+  transform: translateY(-50%);
+}
+
+/* Animations */
+@keyframes coin-float {
+  0%, 100% { transform: translate(-50%, -60%) rotateX(60deg) rotateZ(-45deg) translateY(0); }
+  50% { transform: translate(-50%, -60%) rotateX(60deg) rotateZ(-45deg) translateY(-15px); }
+}
+
+@keyframes shadow-pulse {
+  0%, 100% { opacity: 0.2; transform: translate(-50%, 0) rotateX(60deg) scale(1); }
+  50% { opacity: 0.1; transform: translate(-50%, 0) rotateX(60deg) scale(0.8); }
+}
+
+@keyframes flow-pulse {
+  0% { opacity: 0; transform: translateX(-20px) rotate(var(--rotate, 0deg)); }
+  50% { opacity: 0.7; transform: translateX(0) rotate(var(--rotate, 0deg)); }
+  100% { opacity: 0; transform: translateX(20px) rotate(var(--rotate, 0deg)); }
+}
+
+@keyframes node-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-visual {
+    height: 250px;
+  }
+  
+  .wbtc-coin {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .bitcoin-symbol {
+    font-size: 30px;
+  }
+  
+  .protocol-node {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .protocol-label {
+    font-size: 12px;
+  }
+} 
